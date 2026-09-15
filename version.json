@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "build": "2",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.0-2/RecordLah-v1.0-2.zip",
+  "sha256": "26210dc090c7e8cb2ba87e9f63f7d36f64d2448fd03f554e817c78586622b401",
+  "notes": "Zoom Events joining, About and Help screens, a new date and time picker, and automatic update checks.",
+  "minimum_macos": "13.0"
+}
