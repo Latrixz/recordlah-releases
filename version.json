@@ -1,27 +1,37 @@
 {
-  "version": "1.0",
-  "build": "4",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.0-4/RecordLah-v1.0-4.zip",
-  "sha256": "a4a93e8aadddb60fe3ed8894169eb9508b303066977bf54791c9af03dd671574",
-  "notes": "# Fold the meeting list away {chevron}\nThe handle on the edge of the list slides it out of the way when you want the\nwhole window for the meeting you are editing, and back when you don't.\n\n# Opens in about a second {clock}\nStarting RecordLah took six seconds and now takes one: the settings pages are\nbuilt the first time you open them, and the meeting list fills in as it\nappears rather than all at once.\n\n# Forms that say what is wrong {notes}\nA missing Zoom link is marked on the field itself, with the reason under it,\ninstead of a box in the middle of the screen \u2014 and the page scrolls to it.\n\n---\n\nEverything else in this release:\n\n- Every input has the same rounded shape as the pickers beside it, in the\n  meeting form, in Settings, and in the time and time-zone panels.\n- What you want Gemini to look for is now a proper text box rather than a\n  single line, and it is shown as the first question when you open the notes.\n- A new meeting is scrolled into view instead of being selected off-screen.\n- Alerts appear in the middle of the window, in the app's own style, rather\n  than wherever macOS decided to put them.\n- Update checks wait while a recording is running, and stand aside when a\n  scheduled recording is due within ten minutes.\n- The refresh and ? marks in the toolbar are legible.",
+  "version": "1.01",
+  "build": "5",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.01-5/RecordLah-v1.01-5.zip",
+  "sha256": "fd3895f0b0943e73fb08da86673cf33ee3b2beb4677fe53dd2db5b97f9fd2318",
+  "notes": "# Pick several, act on all of them {check_circle}\nA Select button above the meeting list turns every row into a tick box. Choose\na few, or all of them, and the footer moves them into a folder or deletes them\nin one go \u2014 with one question asked once, rather than once per meeting.\n\n# A new meeting is not a meeting until you save it {plus}\nPressing New used to create the meeting there and then, armed, with no link in\nit. It now opens a blank form with a draft row at the top of the list, and\nwrites nothing until you press Save changes. Nothing is left behind if you\nchange your mind.\n\n# Search time zones the way you say them {globe}\nEST, PST, CST and the rest now find the zones that go by those names \u2014 all of\nthem, not one each. So do cities the database has never heard of: Boston, San\nFrancisco, Seattle, Bali, Penang, Beijing, Mumbai. Each result says why it is\nin the list.\n\n# Light or dark, whichever you prefer {sliders}\nSettings \u203a General now carries a Theme switch: follow the Mac, or hold\nRecordLah in one or the other. It takes effect when the app reopens, and there\nis a button there to do that straight away.\n\n# The footer says what is coming next {clock}\nInstead of \"All systems ready\", the line along the bottom names the next\nrecording that will actually happen, and when. A meeting with no link is never\npromised.\n\n---\n\nEverything else in this release:\n\n**Deleting**\n\n- Deleting asks one clear question, with what happens to the recordings spelled\n  out on its own line and the number of meetings named on the button.\n- A delete writes the meeting list to disk BEFORE it moves any file to the\n  Trash, so an interruption can never leave a meeting pointing at a recording\n  that is no longer there.\n- Deleting a meeting no longer freezes the window.\n\n**Duplicating**\n\n- \"Create another\" is now called Duplicate \u2014 it is the same action as the one\n  in the row's menu, and it now says so.\n- A duplicate keeps everything except the date, which is the one field that is\n  certainly wrong when you are scheduling something again. It lands at the top\n  of the list and the form opens on the next free slot.\n- The copy is scrolled into view, wherever the list happened to be.\n\n**Menus and panels**\n\n- Every menu in the app is now RecordLah's own panel rather than a system one.\n  The system ones left the window's mouse tracking stale behind them: the next\n  click anywhere was swallowed, and the control under the pointer showed the\n  wrong cursor until it landed.\n- Escape closes every panel, menu, picker and dialog \u2014 including the ones with\n  nothing to type in, which ignored it before.\n- Scrolling closes the row's menu instead of leaving it floating over a list\n  that has moved on.\n\n**Scrolling**\n\n- The wheel and the trackpad scroll whatever is under the pointer. Opening a\n  row's menu used to send every scroll to the pane on the right, however far\n  away the pointer was, until you clicked the list again.\n\n**Notes**\n\n- Diagrams in the notes keep their shape: fenced blocks are set in a monospace\n  face instead of being re-flowed as prose.\n- Your own question sits against the right-hand edge at any window width, and\n  the reply's bubble is drawn the size it actually is.\n- Copy says what it copied, in the notes window rather than in the window\n  behind it.\n\n**Appearance**\n\n- Cards in the meeting form, in Settings and on the Invitations tab are rounded\n  and have lost their hard outlines.\n- The selected item in the sidebar is a rounded pill, like every other selected\n  thing in the app.\n- On a narrow window the schedule lays itself out properly: Repeats beside its\n  label, Date and Time paired, the time zone across the full width \u2014 and the\n  day shortcuts drop to their own line instead of running off the edge.\n- The folder icon is drawn as a folder with a real tab, and the count pills sit\n  clear of the scrollbar.\n\n**Fixes**\n\n- The update check no longer leaves \"Checking for updates\u2026\" on screen for the\n  rest of the session.\n- The Analysis and Resources cards on a finished recording are laid out\n  correctly again.",
   "highlights": [
     {
-      "title": "Fold the meeting list away",
-      "icon": "chevron",
-      "text": "The handle on the edge of the list slides it out of the way when you want the whole window for the meeting you are editing, and back when you don't."
+      "title": "Pick several, act on all of them",
+      "icon": "check_circle",
+      "text": "A Select button above the meeting list turns every row into a tick box. Choose a few, or all of them, and the footer moves them into a folder or deletes them in one go \u2014 with one question asked once, rather than once per meeting."
     },
     {
-      "title": "Opens in about a second",
+      "title": "A new meeting is not a meeting until you save it",
+      "icon": "plus",
+      "text": "Pressing New used to create the meeting there and then, armed, with no link in it. It now opens a blank form with a draft row at the top of the list, and writes nothing until you press Save changes. Nothing is left behind if you change your mind."
+    },
+    {
+      "title": "Search time zones the way you say them",
+      "icon": "globe",
+      "text": "EST, PST, CST and the rest now find the zones that go by those names \u2014 all of them, not one each. So do cities the database has never heard of: Boston, San Francisco, Seattle, Bali, Penang, Beijing, Mumbai. Each result says why it is in the list."
+    },
+    {
+      "title": "Light or dark, whichever you prefer",
+      "icon": "sliders",
+      "text": "Settings \u203a General now carries a Theme switch: follow the Mac, or hold RecordLah in one or the other. It takes effect when the app reopens, and there is a button there to do that straight away."
+    },
+    {
+      "title": "The footer says what is coming next",
       "icon": "clock",
-      "text": "Starting RecordLah took six seconds and now takes one: the settings pages are built the first time you open them, and the meeting list fills in as it appears rather than all at once."
-    },
-    {
-      "title": "Forms that say what is wrong",
-      "icon": "notes",
-      "text": "A missing Zoom link is marked on the field itself, with the reason under it, instead of a box in the middle of the screen \u2014 and the page scrolls to it."
+      "text": "Instead of \"All systems ready\", the line along the bottom names the next recording that will actually happen, and when. A meeting with no link is never promised."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.0-4",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.01-5",
   "required": false,
   "minimum_macos": "13.0"
 }
