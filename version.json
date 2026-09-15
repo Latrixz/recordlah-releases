@@ -1,27 +1,27 @@
 {
   "version": "1.0",
-  "build": "3",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.0-3/RecordLah-v1.0-3.zip",
-  "sha256": "5fa4404e205f31237befc5f0fbc784fa9a2538dffe43999a02d1fc71a0958478",
-  "notes": "# Improved scheduling {calendar}\nDate, time and time-zone pickers are now panels under the field, and they\nclose when you click away.\n\n# Flexible time entry {clock}\nType 0900, 9am, 2:30pm or 14:30 \u2014 the panel says back what it understood\nbefore you commit to it.\n\n# Updates arrive by themselves {download}\nRecordLah checks on every launch and installs a new build without a disk\nimage or a Gatekeeper prompt.\n\n---\n\nEverything else in this release:\n\n- The finished-recording view opens in 47ms instead of 500, so the Done tab\n  no longer flickers on the way in.\n- About and Help screens, reachable from the RecordLah menu.\n- Time zones read as Asia/Hong Kong rather than Asia/Hong_Kong.\n- The schedule row folds into two rows on a narrow window instead of\n  truncating every field.\n- The calendar will not page back past the current month.\n- Closing the window during a recording asks instead of just closing.\n- Update checks wait until a recording has finished.\n- The update panel says what changed in plain words, stays put while it\n  checks, and opens over the app rather than against the screen edge.\n- The refresh and ? marks in the toolbar are legible again.",
+  "build": "5",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.0-5/RecordLah-v1.0-5.zip",
+  "sha256": "f9bc46593a26719dbbf4adab48bc8deb5f4ed6037b4873b8e03e8e069f524f96",
+  "notes": "# Fold the meeting list away {chevron}\nThe handle on the edge of the list slides it out of the way when you want the\nwhole window for the meeting you are editing, and back when you don't.\n\n# Opens in about a second {clock}\nStarting RecordLah took six seconds and now takes one: the settings pages are\nbuilt the first time you open them, and the meeting list fills in as it\nappears rather than all at once.\n\n# Forms that say what is wrong {notes}\nA missing Zoom link is marked on the field itself, with the reason under it,\ninstead of a box in the middle of the screen \u2014 and the page scrolls to it.\n\n---\n\nEverything else in this release:\n\n- Every input has the same rounded shape as the pickers beside it, in the\n  meeting form, in Settings, and in the time and time-zone panels.\n- What you want Gemini to look for is now a proper text box rather than a\n  single line, and it is shown as the first question when you open the notes.\n- A new meeting is scrolled into view instead of being selected off-screen.\n- Alerts appear in the middle of the window, in the app's own style, rather\n  than wherever macOS decided to put them.\n- Update checks wait while a recording is running, and stand aside when a\n  scheduled recording is due within ten minutes.\n- The refresh and ? marks in the toolbar are legible.",
   "highlights": [
     {
-      "title": "Improved scheduling",
-      "icon": "calendar",
-      "text": "Date, time and time-zone pickers are now panels under the field, and they close when you click away."
+      "title": "Fold the meeting list away",
+      "icon": "chevron",
+      "text": "The handle on the edge of the list slides it out of the way when you want the whole window for the meeting you are editing, and back when you don't."
     },
     {
-      "title": "Flexible time entry",
+      "title": "Opens in about a second",
       "icon": "clock",
-      "text": "Type 0900, 9am, 2:30pm or 14:30 \u2014 the panel says back what it understood before you commit to it."
+      "text": "Starting RecordLah took six seconds and now takes one: the settings pages are built the first time you open them, and the meeting list fills in as it appears rather than all at once."
     },
     {
-      "title": "Updates arrive by themselves",
-      "icon": "download",
-      "text": "RecordLah checks on every launch and installs a new build without a disk image or a Gatekeeper prompt."
+      "title": "Forms that say what is wrong",
+      "icon": "notes",
+      "text": "A missing Zoom link is marked on the field itself, with the reason under it, instead of a box in the middle of the screen \u2014 and the page scrolls to it."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.0-3",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.0-5",
   "required": false,
   "minimum_macos": "13.0"
 }
