@@ -1,172 +1,57 @@
 {
-  "version": "1.2",
-  "build": "8",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.2-8/RecordLah-v1.2-8.zip",
-  "sha256": "0568cd29118e0199995015980eaef5b75f98041bbaa209933913c0cae0aa4818",
-  "notes": "# A meeting being recorded says so on its own page {video}\nOpen a meeting that has recorded before while it is recording again and the\npage said \"Recorded successfully\" over the file from last time. The badge now\nsays what is happening -- Recording now, or the step the run is on, or\nReading the recording while the analysis runs -- and a card above the files\nsays when this run started and that its file appears when it ends.\n\n# Two runs of one meeting can be made into one file {film}\nMerging only ever knew about the parts of a single capture. A run that ends\noutright -- the Mac slept, the app was replaced, somebody pressed Stop -- is\nfollowed by a NEW run with a name of its own, so one meeting sat in two cards\nwith nothing offering to join them. The first card now says \"2 recordings\"\nand offers to merge them all, oldest first, whenever they were made. It names\nwhat it will join before it runs, because two runs of a repeating meeting can\njust as easily be two different days.\n\n# And the parts can go, once the merge is checked {trash}\nMerging left two copies of the same meeting on disk, which on a long meeting\nis gigabytes. The app now offers to move the originals to the Trash -- but\nonly after measuring the file that came out: ffmpeg can abandon a join\nhalfway and still leave something playable, so a merged file that plays for\nless than its parts did deletes nothing and says why.\n\n# Every mark in What's new has a picture {sparkle}\nThe headings in these notes carry a glyph name typed by hand, and a name SF\nSymbols has never heard of draws nothing at all \u2014 so the What's new list had\nblank tiles in it. The names now go through the app's own table, and one it\ncannot place falls back to a glyph rather than to a hole.\n\n# New meeting no longer resizes the window {plus}\nPressing \u2318N on a normal window used to make the window jump wider: the form\nwas built side by side before anything had measured it, and macOS answers a\nlayout that needs more room by growing the window. The form now asks the pane\nhow much room there is, so New leaves the window exactly as it was \u2014 and a\nwide window still opens the two cards side by side.\n\n# Invitations read the way the mail reads {envelope}\nA webinar called \u201cJoey Yap\u2019s Unlock The Palace\u201d arrived from an HTML mail\nbody as \u201cJoey Yap&#39;s Unlock The Palace\u201d, and that is what the list showed.\nNames and senders are now unescaped wherever they are drawn, searched or\nimported \u2014 including the rows already sitting in the cache.\n\n# A licence key can arrive as a link {link}\nA receipt or the website can now open `recordlah://activate?key=\u2026` and the\napp fills the key in for you. It FILLS IT AND WAITS: any web page can open a\ncustom scheme, so one that activated by itself would be a page on the\ninternet deciding which licence this Mac holds \u2014 and on a multi-seat licence,\nspending a seat nobody offered. The typing was the hard part; the press is\nyours. A link carrying anything else does nothing at all.\n\n# A run that has stopped stops saying it is running {clock}\nThe Logs window read the ending out of the log and knew four of them; a run\nthat stopped any other way \u2014 before the meeting started, or because the link\nnever opened Zoom \u2014 was still showing \u201cIn progress\u201d half an hour later. It\nknows those endings now, and where it cannot name one it looks at when the\nlog was last written instead: nothing has written to it for ninety seconds\nmeans the run has gone, whatever it said on the way out.\n\n# A link that goes nowhere says so instead of sitting there {link}\nA link the browser opens is given fifteen minutes to become a Zoom link,\nbecause a lobby can count down for that long and an invite can redirect when\nthe meeting opens. A mistyped link is not on its way anywhere, so the row sat\non \u201cOpening the event page\u201d for a quarter of an hour with nothing happening.\nA page that has not moved in two and a half minutes, is not Zoom's and has no\nprompt to answer now ends the run with \u201cLink went nowhere\u201d.\n\n# The microphone settings, in two lines {mic}\nA name and its control on each line -- the input with the way to try it, then\nwhat it is hearing and whether macOS is allowing it -- instead of four things\nacross with hairlines between them. It reads as a short form rather than a\nstrip of instruments, and it is what lets this page fit the window the\nmeetings list fits.\n\n# Settings fits the window the meetings list fits {macwindow}\nOpening Settings \u203a Recording used to widen the window, because the page\nasked for about 1,300 points \u2014 more than this window's own minimum. Three\nthings were asking: a note whose two sentences each wanted a full line, the\ncapture cards' descriptions, and the microphone row's four parts side by\nside. The note and the cards now wrap or truncate into the room they are\ngiven, and the microphone row goes one part above another under about 960\npoints, hairlines and all. Measured at every width from 1043 to 1600:\nopening Settings leaves the window exactly where it was.\n\n# Coming back from Settings shows the meetings again {macwindow}\nThe pane that is not showing is taken off the stage so it stops holding the\nwindow open \u2014 but the meetings list was put there when the window was built,\nand taking it off dropped the constraints that hold it in place, so going\nback to it showed an empty page. It stays where it was put; only the two\npages built on demand come and go.\n\n# Visiting Settings no longer holds the window open {macwindow}\nThe three tabs are built once and kept, and the ones you are not looking at\nwere merely hidden \u2014 a hidden view keeps its constraints, so one visit to\nSettings \u203a Recording left that page's own minimum width propping the window\nopen for the rest of the session. The meetings list could not be made narrow\nagain, and neither could the window. A pane that is not showing is off the\nstage now; it keeps its state and stops being a floor under a page nobody is\nlooking at.\n\n# Testing the microphone no longer resizes the window {sliders}\nThe button says three different things while a test runs \u2014 \u201cTest\nmicrophone\u201d, \u201cRecording\u2026 say something\u201d, \u201cPlaying back\u2026\u201d \u2014 and it was sized\nto each in turn, so the row grew and shrank and took the window with it. It\nis now as wide as the longest thing it will say, decided once.\n\n# The microphone row reads in light mode too {sun}\nThe level meter's unlit bars were the system's label colour at a tenth, which\non a white card is very nearly white \u2014 so in light mode there was no meter\nuntil something lit it. They use the palette's own track grey now. The meter\nis also as tall as the input beside it, so the two captions sit on one line\nrather than \"Input level\" riding above \"Input\", and Refresh is a glyph beside\nthe Input caption instead of a button in the card's heading, where it was cut\noff by the edge of the card.\n\n# Saving settings no longer races itself {shield}\nReading this Mac's displays imported part of Quartz on first use, and that\nimport is not thread-safe: asked for from two threads at once \u2014 saving the\nsettings page while the level meter runs \u2014 it could raise from inside PyObjC\nand take the save with it. It is resolved once, when the module loads.\n\n# The storage bar shows what is left {sliders}\nThe empty end of it was drawn in the same grey as the card behind it \u2014 three\npoints apart in the dark \u2014 so the bar looked like it simply stopped where the\ngrey did, with no way to see how much of the disk is still free. It has a\nground of its own now, in both appearances, and the swatch beside \u201cfree of\u201d\nmatches it.\n\n# A finished meeting's name is not what gives way {macwindow}\nOn a narrow window the four buttons beside it took the width and the name was\ncut to \"New\u2026\" \u2014 the one thing on the page that says which recording you are\nlooking at. The buttons drop to a line of their own now, and the name keeps\nthe width. A status pill is measured rather than left to hug, too: it was\nstretching into a coloured bar across the line whenever there was slack.\n\n# The microphone row looks like the rest of the app {gear}\nThe input is chosen from the app's own dropdown now \u2014 the shape the Folder\nand Time zone fields use \u2014 rather than a stock macOS pop-up that was 24\npoints tall with its own bezel and its own font. A hairline sits between each\nof the four: the input, the level, the test and the access.\n\n# A restarted capture keeps your voice {mic}\nA capture that restarts \u2014 a Zoom window swap is enough \u2014 asked for the\nmicrophone only on the first attempt, so a meeting could come back with part\none holding your half of the conversation and part two without it.\n\n# A finished recording says whose voices are in it {mic}\nYour voice \u2014 Included, or The meeting only \u2014 sits with Duration, File size\nand Recorded on the recording card. Recorded against the FILE when it is\nmade, not worked out afterwards: the setting and the meeting's own choice can\nboth be changed later, and a recording would then claim to hold a voice it\nwas made without. Recordings made before this says nothing rather than guess.\n\n# The buttons over a finished recording have room to breathe {sliders}\nEdit details, Logs and Duplicate were stock macOS buttons, which are 21\npoints tall whatever is in them \u2014 so a glyph filled one corner to corner with\nno air above or below. They are the app's own buttons now, the same ones on\nthe card underneath.\n\n# And loud enough to make out {sliders}\nThe microphone was mixed at half, on the reasoning that a mic on the desk is\nlouder than a meeting coming back over the network. That is not true of the\none most people are wearing \u2014 a headset mic is quiet and band-limited before\nit reaches us \u2014 so it goes in at full now, with the peaks held inside the\nrails rather than the whole thing kept quiet. `zoomcap --mic-gain N` moves it\neither way for a recording that needs it.\n\n# And it plays back at the speed you said it {mic}\nmacOS hands the microphone over as ONE channel at 24 kHz \u2014 the rate a\nBluetooth headset works at \u2014 while the meeting arrives as TWO at 48 kHz.\nTaken across sample for sample, a voice played four times too fast: twice for\nthe rate, and twice again for being read as a stereo pair. The microphone is\nnow brought to one channel at the meeting's own rate before anything is mixed,\nand the same voice goes into both channels.\n\n# Your own voice actually reaches the recording {mic}\nThe microphone was captured, converted and counted \u2014 and then thrown away.\nThe meeting's audio arrives as two separate channels, and the code that reads\nit asked CoreMedia for room for one, so every attempt to mix the two came back\nempty and the recording fell back to the meeting alone. Fixed, along with two\nthings it was hiding: the writer was being handed audio in two different\nshapes, which makes it fail the whole file, and a failed writer now says so in\nthe log instead of leaving a 0-byte recording.\n\n# Intel Macs and older macOS can still record {shield}\nMicrophone capture is a macOS 15 feature, and asking for it unconditionally\nraised what the recorder needs to macOS 26 and dropped Intel Macs altogether.\nIt is asked for only where it exists now, and the recorder is a universal\nbinary again \u2014 on an older Mac the meeting records as it always did.\n\n# The Recording card, in two halves {mic}\nWhat a recording CONTAINS and what is made of it afterwards are two\nquestions, so they are two tiles now rather than two rows of switches: Your\nmicrophone, with the three-way choice and what \u201cUse default\u201d comes out as\nfor this meeting, and AI notes, with the switch and a box to type the question in \u2014 typed where it is asked rather than behind a sheet. They\nsit side by side on a wide window and one above the other on a narrow one,\nbreaking at the same width the two cards above them do \u2014 so the form is\neither two columns or one, never a mix of both.\n\n# The New meeting form no longer moves the window {sliders}\nOpening it snapped the window to a size of its own, and picking an option\ninside it moved the window again \u2014 the three-segment strip is a fixed width,\nand tied to the edge of its tile it made the whole window exactly that wide,\nwhich also meant the window could not be dragged afterwards. The strip hugs\nits own labels now, the way the Repeats strip above it always has.\n\n# The Meeting details mark is the size of the others {info}\nThe heading's glyph was SF Symbols' bare letter i \u2014 taller than it is wide,\nso it grew until it filled its tile and read as one size larger than the\ncalendar and the mic beside it. It is the circled i now, and no tile glyph is\never scaled up past the size it was asked for.\n\n# The Recording card lines up {mic}\n\u201cAnalyse when the meeting ends\u201d sat twelve points further in than the label\nunder it, padded inside a box nothing draws. The row now starts where the\nrest of the card starts, and its switch ends where the box under it ends.\n\n# The analysis estimate is readable in full {clock}\n\u201cAbout 1 hour 3 minutes\u201d was cut off at \u201cAbout 1 hour 3 mi\u2026\u201d in the consent\nscreen. The three figures now wrap onto a second line instead of truncating,\nand the three tiles stay the same height.\n\n# A spent free trial says so where it matters {sparkle}\nThe offer to record a meeting you joined yourself read \u201c0 trial recordings\nleft\u201d beside a blue Start recording button. It now says \u201cNo recordings left\u201d\nin a colour that means it, with View plans beside it \u2014 and the offer stays up\nwhile the plans are read, because the meeting is still running.\n\n---\n\nEverything else in this release:\n\n- Merging is offered across a meeting's separate runs, not only within one.\n- A run that is stopped outright no longer leaves the read view describing\n  the run before it.\n- `install.sh` refuses to replace the app while a recording is running, and\n  quits only the window -- the recorder and the window are the same binary,\n  and \"quit RecordLah before installing\" once cost a meeting nine minutes in.\n- The flag beside a time zone lines up with the words it belongs to:\n  on the place name in the picker's list, and on the value in the\n  field on the form.",
+  "version": "1.3",
+  "build": "9",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.3-9/RecordLah-v1.3-9.zip",
+  "sha256": "9dc6e223342c1390812391ac3c4ea0ffede69a290f01fc8642364c72117f7c47",
+  "notes": "# The free trial actually counts now {sparkle}\nIt has been appearance only: a chip in the toolbar over a recorder that\nrecorded whatever it was asked to. Runs are counted against this Mac now,\nreported exactly once, and a run the server never heard about is queued and\nre-reported rather than lost \u2014 one trial had been split across two machine\nids because ioreg timed out mid-recording, so the id is read once and kept.\n\n# A spent trial says so before the meeting, not after it {clock}\nThe refusal arrives at the scheduler, at Record now, and at the offer that\nappears over a live meeting, each saying so rather than quietly doing\nnothing. A meeting armed beyond what the trial covers is flagged the moment\nit is armed \u2014 in the list, on the schedule, and after the last recording\nthat fits \u2014 because finding out afterwards means the meeting is gone.\n\n# Trial recordings are watermarked, and say so first {video}\n720p at 15fps with a tiled mark, written into the file as it is made rather\nthan painted on afterwards. The quality cards say which of them a trial can\nreach before one is chosen, so the limit is met on the settings page instead\nof in a finished recording of something that cannot be recorded again.\n\n# The meeting can be told it is being recorded {notes}\nSwitch it on and one line goes into Zoom's own chat when recording starts,\nso the people in the meeting are told without anybody having to remember.\nIt is put into the chat box through Accessibility rather than typed, because\ntyped characters land wherever the focus happens to be and in Zoom's meeting\nwindow the letters are shortcuts \u2014 mute, video, screen share \u2014 while Return\npresses whatever button has focus. Off unless it is turned on, and the app\nasks once, the first time a meeting is armed without it, whether everybody\nknows.\n\n# Notes can be turned on halfway through a recording {sparkle}\nDeciding you want a summary is something that happens during a meeting\nrather than before it, and the switch was locked for the whole run. It stays\nlive now, along with the question to ask, and what is set is what gets read\nwhen the capture ends \u2014 the link, the time and the repeat stay locked,\nbecause those describe a run that is happening.\n\n# Buying it is one page {shield_lock}\nThe price sits beside what it buys, the rules are three lines rather than a\ndocument, and the thank-you screen carries the marks of what has just been\nunlocked \u2014 including on a page that is already open, so activating from the\nUpgrade panel no longer leaves somebody looking at the lock they have just\npaid to remove.\n\n# The welcome screen is one page {info}\nIt was three: the welcome, the System Check, then a first meeting to point\nit at. The check step re-ran every permission test while building itself \u2014\nproving Screen Recording means capturing a frame \u2014 so it blocked the window\nfor seconds to re-derive an answer that had just landed, and the System\nCheck opens by itself anyway when something needs granting. It explains what\nthe trial counts, which nobody running an earlier build has been shown, so\nit appears once more after this update and never on a licensed Mac.\n\n# Opening the app is about two seconds quicker {stepper}\nThe window asked the Keychain whether this Mac is licensed twenty-one times\nwhile building itself \u2014 the toolbar, the trial chip, the licence page and\nthe form each asking independently, none knowing the others just had \u2014 and\neach ask shells out to security at about 27ms, which was over half of the\nlaunch, all on the thread that answers clicks. The answer is held for five\nseconds now: long enough to collapse a burst like that into one read, short\nenough that a key activated elsewhere is noticed almost at once.\n\n# Two runs of one meeting make one file {film}\nA meeting interrupted \u2014 the Mac slept, the app was replaced \u2014 becomes a\nsecond recording beside the first, and nothing offered to join them. They\nmerge oldest first now, and the parts can go to the Trash once the result\nhas been measured: ffmpeg can abandon a join halfway and still leave\nsomething playable, so a merged file that plays for less than its parts did\ndeletes nothing and says why.\n\n---\n\nEverything else in this release:\n\n- The read view says what is happening while it is happening, rather than\n  \"Recorded successfully\" over last week's file.\n- The microphone setting follows the choice that turns it on, notices access\n  granted in System Settings without a relaunch, and asks before a meeting\n  is saved with somebody's own voice in it.\n- Every toast raised on Settings or Invitations was drawn behind the page:\n  saving settings, the alert test, the copied licence key, all of them.\n- Closing the window during a recording lost the app.\n- install.sh refuses to replace the app while a recording is running \u2014 the\n  window and the recorder are the same binary, and quitting one to install\n  once cost a meeting nine minutes in.\n- Spoken announcements are behind one flag rather than removed.\n- The consent question is its own panel: what would be posted, readable\n  before it is agreed to, and two answers that are both something to do.\n- checks/sandbox.py answers that question, so no test harness stops on a\n  modal nobody is there to press.",
   "highlights": [
     {
-      "title": "A meeting being recorded says so on its own page",
+      "title": "The free trial actually counts now",
+      "icon": "sparkle",
+      "text": "It has been appearance only: a chip in the toolbar over a recorder that recorded whatever it was asked to. Runs are counted against this Mac now, reported exactly once, and a run the server never heard about is queued and re-reported rather than lost \u2014 one trial had been split across two machine ids because ioreg timed out mid-recording, so the id is read once and kept."
+    },
+    {
+      "title": "A spent trial says so before the meeting, not after it",
+      "icon": "clock",
+      "text": "The refusal arrives at the scheduler, at Record now, and at the offer that appears over a live meeting, each saying so rather than quietly doing nothing. A meeting armed beyond what the trial covers is flagged the moment it is armed \u2014 in the list, on the schedule, and after the last recording that fits \u2014 because finding out afterwards means the meeting is gone."
+    },
+    {
+      "title": "Trial recordings are watermarked, and say so first",
       "icon": "video",
-      "text": "Open a meeting that has recorded before while it is recording again and the page said \"Recorded successfully\" over the file from last time. The badge now says what is happening -- Recording now, or the step the run is on, or Reading the recording while the analysis runs -- and a card above the files says when this run started and that its file appears when it ends."
+      "text": "720p at 15fps with a tiled mark, written into the file as it is made rather than painted on afterwards. The quality cards say which of them a trial can reach before one is chosen, so the limit is met on the settings page instead of in a finished recording of something that cannot be recorded again."
     },
     {
-      "title": "Two runs of one meeting can be made into one file",
-      "icon": "film",
-      "text": "Merging only ever knew about the parts of a single capture. A run that ends outright -- the Mac slept, the app was replaced, somebody pressed Stop -- is followed by a NEW run with a name of its own, so one meeting sat in two cards with nothing offering to join them. The first card now says \"2 recordings\" and offers to merge them all, oldest first, whenever they were made. It names what it will join before it runs, because two runs of a repeating meeting can just as easily be two different days."
+      "title": "The meeting can be told it is being recorded",
+      "icon": "notes",
+      "text": "Switch it on and one line goes into Zoom's own chat when recording starts, so the people in the meeting are told without anybody having to remember. It is put into the chat box through Accessibility rather than typed, because typed characters land wherever the focus happens to be and in Zoom's meeting window the letters are shortcuts \u2014 mute, video, screen share \u2014 while Return presses whatever button has focus. Off unless it is turned on, and the app asks once, the first time a meeting is armed without it, whether everybody knows."
     },
     {
-      "title": "And the parts can go, once the merge is checked",
-      "icon": "trash",
-      "text": "Merging left two copies of the same meeting on disk, which on a long meeting is gigabytes. The app now offers to move the originals to the Trash -- but only after measuring the file that came out: ffmpeg can abandon a join halfway and still leave something playable, so a merged file that plays for less than its parts did deletes nothing and says why."
-    },
-    {
-      "title": "Every mark in What's new has a picture",
+      "title": "Notes can be turned on halfway through a recording",
       "icon": "sparkle",
-      "text": "The headings in these notes carry a glyph name typed by hand, and a name SF Symbols has never heard of draws nothing at all \u2014 so the What's new list had blank tiles in it. The names now go through the app's own table, and one it cannot place falls back to a glyph rather than to a hole."
+      "text": "Deciding you want a summary is something that happens during a meeting rather than before it, and the switch was locked for the whole run. It stays live now, along with the question to ask, and what is set is what gets read when the capture ends \u2014 the link, the time and the repeat stay locked, because those describe a run that is happening."
     },
     {
-      "title": "New meeting no longer resizes the window",
-      "icon": "plus",
-      "text": "Pressing \u2318N on a normal window used to make the window jump wider: the form was built side by side before anything had measured it, and macOS answers a layout that needs more room by growing the window. The form now asks the pane how much room there is, so New leaves the window exactly as it was \u2014 and a wide window still opens the two cards side by side."
+      "title": "Buying it is one page",
+      "icon": "shield_lock",
+      "text": "The price sits beside what it buys, the rules are three lines rather than a document, and the thank-you screen carries the marks of what has just been unlocked \u2014 including on a page that is already open, so activating from the Upgrade panel no longer leaves somebody looking at the lock they have just paid to remove."
     },
     {
-      "title": "Invitations read the way the mail reads",
-      "icon": "envelope",
-      "text": "A webinar called \u201cJoey Yap\u2019s Unlock The Palace\u201d arrived from an HTML mail body as \u201cJoey Yap&#39;s Unlock The Palace\u201d, and that is what the list showed. Names and senders are now unescaped wherever they are drawn, searched or imported \u2014 including the rows already sitting in the cache."
-    },
-    {
-      "title": "A licence key can arrive as a link",
-      "icon": "link",
-      "text": "A receipt or the website can now open `recordlah://activate?key=\u2026` and the app fills the key in for you. It FILLS IT AND WAITS: any web page can open a custom scheme, so one that activated by itself would be a page on the internet deciding which licence this Mac holds \u2014 and on a multi-seat licence, spending a seat nobody offered. The typing was the hard part; the press is yours. A link carrying anything else does nothing at all."
-    },
-    {
-      "title": "A run that has stopped stops saying it is running",
-      "icon": "clock",
-      "text": "The Logs window read the ending out of the log and knew four of them; a run that stopped any other way \u2014 before the meeting started, or because the link never opened Zoom \u2014 was still showing \u201cIn progress\u201d half an hour later. It knows those endings now, and where it cannot name one it looks at when the log was last written instead: nothing has written to it for ninety seconds means the run has gone, whatever it said on the way out."
-    },
-    {
-      "title": "A link that goes nowhere says so instead of sitting there",
-      "icon": "link",
-      "text": "A link the browser opens is given fifteen minutes to become a Zoom link, because a lobby can count down for that long and an invite can redirect when the meeting opens. A mistyped link is not on its way anywhere, so the row sat on \u201cOpening the event page\u201d for a quarter of an hour with nothing happening. A page that has not moved in two and a half minutes, is not Zoom's and has no prompt to answer now ends the run with \u201cLink went nowhere\u201d."
-    },
-    {
-      "title": "The microphone settings, in two lines",
-      "icon": "mic",
-      "text": "A name and its control on each line -- the input with the way to try it, then what it is hearing and whether macOS is allowing it -- instead of four things across with hairlines between them. It reads as a short form rather than a strip of instruments, and it is what lets this page fit the window the meetings list fits."
-    },
-    {
-      "title": "Settings fits the window the meetings list fits",
-      "icon": "macwindow",
-      "text": "Opening Settings \u203a Recording used to widen the window, because the page asked for about 1,300 points \u2014 more than this window's own minimum. Three things were asking: a note whose two sentences each wanted a full line, the capture cards' descriptions, and the microphone row's four parts side by side. The note and the cards now wrap or truncate into the room they are given, and the microphone row goes one part above another under about 960 points, hairlines and all. Measured at every width from 1043 to 1600: opening Settings leaves the window exactly where it was."
-    },
-    {
-      "title": "Coming back from Settings shows the meetings again",
-      "icon": "macwindow",
-      "text": "The pane that is not showing is taken off the stage so it stops holding the window open \u2014 but the meetings list was put there when the window was built, and taking it off dropped the constraints that hold it in place, so going back to it showed an empty page. It stays where it was put; only the two pages built on demand come and go."
-    },
-    {
-      "title": "Visiting Settings no longer holds the window open",
-      "icon": "macwindow",
-      "text": "The three tabs are built once and kept, and the ones you are not looking at were merely hidden \u2014 a hidden view keeps its constraints, so one visit to Settings \u203a Recording left that page's own minimum width propping the window open for the rest of the session. The meetings list could not be made narrow again, and neither could the window. A pane that is not showing is off the stage now; it keeps its state and stops being a floor under a page nobody is looking at."
-    },
-    {
-      "title": "Testing the microphone no longer resizes the window",
-      "icon": "sliders",
-      "text": "The button says three different things while a test runs \u2014 \u201cTest microphone\u201d, \u201cRecording\u2026 say something\u201d, \u201cPlaying back\u2026\u201d \u2014 and it was sized to each in turn, so the row grew and shrank and took the window with it. It is now as wide as the longest thing it will say, decided once."
-    },
-    {
-      "title": "The microphone row reads in light mode too",
-      "icon": "sun",
-      "text": "The level meter's unlit bars were the system's label colour at a tenth, which on a white card is very nearly white \u2014 so in light mode there was no meter until something lit it. They use the palette's own track grey now. The meter is also as tall as the input beside it, so the two captions sit on one line rather than \"Input level\" riding above \"Input\", and Refresh is a glyph beside the Input caption instead of a button in the card's heading, where it was cut off by the edge of the card."
-    },
-    {
-      "title": "Saving settings no longer races itself",
-      "icon": "shield",
-      "text": "Reading this Mac's displays imported part of Quartz on first use, and that import is not thread-safe: asked for from two threads at once \u2014 saving the settings page while the level meter runs \u2014 it could raise from inside PyObjC and take the save with it. It is resolved once, when the module loads."
-    },
-    {
-      "title": "The storage bar shows what is left",
-      "icon": "sliders",
-      "text": "The empty end of it was drawn in the same grey as the card behind it \u2014 three points apart in the dark \u2014 so the bar looked like it simply stopped where the grey did, with no way to see how much of the disk is still free. It has a ground of its own now, in both appearances, and the swatch beside \u201cfree of\u201d matches it."
-    },
-    {
-      "title": "A finished meeting's name is not what gives way",
-      "icon": "macwindow",
-      "text": "On a narrow window the four buttons beside it took the width and the name was cut to \"New\u2026\" \u2014 the one thing on the page that says which recording you are looking at. The buttons drop to a line of their own now, and the name keeps the width. A status pill is measured rather than left to hug, too: it was stretching into a coloured bar across the line whenever there was slack."
-    },
-    {
-      "title": "The microphone row looks like the rest of the app",
-      "icon": "gear",
-      "text": "The input is chosen from the app's own dropdown now \u2014 the shape the Folder and Time zone fields use \u2014 rather than a stock macOS pop-up that was 24 points tall with its own bezel and its own font. A hairline sits between each of the four: the input, the level, the test and the access."
-    },
-    {
-      "title": "A restarted capture keeps your voice",
-      "icon": "mic",
-      "text": "A capture that restarts \u2014 a Zoom window swap is enough \u2014 asked for the microphone only on the first attempt, so a meeting could come back with part one holding your half of the conversation and part two without it."
-    },
-    {
-      "title": "A finished recording says whose voices are in it",
-      "icon": "mic",
-      "text": "Your voice \u2014 Included, or The meeting only \u2014 sits with Duration, File size and Recorded on the recording card. Recorded against the FILE when it is made, not worked out afterwards: the setting and the meeting's own choice can both be changed later, and a recording would then claim to hold a voice it was made without. Recordings made before this says nothing rather than guess."
-    },
-    {
-      "title": "The buttons over a finished recording have room to breathe",
-      "icon": "sliders",
-      "text": "Edit details, Logs and Duplicate were stock macOS buttons, which are 21 points tall whatever is in them \u2014 so a glyph filled one corner to corner with no air above or below. They are the app's own buttons now, the same ones on the card underneath."
-    },
-    {
-      "title": "And loud enough to make out",
-      "icon": "sliders",
-      "text": "The microphone was mixed at half, on the reasoning that a mic on the desk is louder than a meeting coming back over the network. That is not true of the one most people are wearing \u2014 a headset mic is quiet and band-limited before it reaches us \u2014 so it goes in at full now, with the peaks held inside the rails rather than the whole thing kept quiet. `zoomcap --mic-gain N` moves it either way for a recording that needs it."
-    },
-    {
-      "title": "And it plays back at the speed you said it",
-      "icon": "mic",
-      "text": "macOS hands the microphone over as ONE channel at 24 kHz \u2014 the rate a Bluetooth headset works at \u2014 while the meeting arrives as TWO at 48 kHz. Taken across sample for sample, a voice played four times too fast: twice for the rate, and twice again for being read as a stereo pair. The microphone is now brought to one channel at the meeting's own rate before anything is mixed, and the same voice goes into both channels."
-    },
-    {
-      "title": "Your own voice actually reaches the recording",
-      "icon": "mic",
-      "text": "The microphone was captured, converted and counted \u2014 and then thrown away. The meeting's audio arrives as two separate channels, and the code that reads it asked CoreMedia for room for one, so every attempt to mix the two came back empty and the recording fell back to the meeting alone. Fixed, along with two things it was hiding: the writer was being handed audio in two different shapes, which makes it fail the whole file, and a failed writer now says so in the log instead of leaving a 0-byte recording."
-    },
-    {
-      "title": "Intel Macs and older macOS can still record",
-      "icon": "shield",
-      "text": "Microphone capture is a macOS 15 feature, and asking for it unconditionally raised what the recorder needs to macOS 26 and dropped Intel Macs altogether. It is asked for only where it exists now, and the recorder is a universal binary again \u2014 on an older Mac the meeting records as it always did."
-    },
-    {
-      "title": "The Recording card, in two halves",
-      "icon": "mic",
-      "text": "What a recording CONTAINS and what is made of it afterwards are two questions, so they are two tiles now rather than two rows of switches: Your microphone, with the three-way choice and what \u201cUse default\u201d comes out as for this meeting, and AI notes, with the switch and a box to type the question in \u2014 typed where it is asked rather than behind a sheet. They sit side by side on a wide window and one above the other on a narrow one, breaking at the same width the two cards above them do \u2014 so the form is either two columns or one, never a mix of both."
-    },
-    {
-      "title": "The New meeting form no longer moves the window",
-      "icon": "sliders",
-      "text": "Opening it snapped the window to a size of its own, and picking an option inside it moved the window again \u2014 the three-segment strip is a fixed width, and tied to the edge of its tile it made the whole window exactly that wide, which also meant the window could not be dragged afterwards. The strip hugs its own labels now, the way the Repeats strip above it always has."
-    },
-    {
-      "title": "The Meeting details mark is the size of the others",
+      "title": "The welcome screen is one page",
       "icon": "info",
-      "text": "The heading's glyph was SF Symbols' bare letter i \u2014 taller than it is wide, so it grew until it filled its tile and read as one size larger than the calendar and the mic beside it. It is the circled i now, and no tile glyph is ever scaled up past the size it was asked for."
+      "text": "It was three: the welcome, the System Check, then a first meeting to point it at. The check step re-ran every permission test while building itself \u2014 proving Screen Recording means capturing a frame \u2014 so it blocked the window for seconds to re-derive an answer that had just landed, and the System Check opens by itself anyway when something needs granting. It explains what the trial counts, which nobody running an earlier build has been shown, so it appears once more after this update and never on a licensed Mac."
     },
     {
-      "title": "The Recording card lines up",
-      "icon": "mic",
-      "text": "\u201cAnalyse when the meeting ends\u201d sat twelve points further in than the label under it, padded inside a box nothing draws. The row now starts where the rest of the card starts, and its switch ends where the box under it ends."
+      "title": "Opening the app is about two seconds quicker",
+      "icon": "stepper",
+      "text": "The window asked the Keychain whether this Mac is licensed twenty-one times while building itself \u2014 the toolbar, the trial chip, the licence page and the form each asking independently, none knowing the others just had \u2014 and each ask shells out to security at about 27ms, which was over half of the launch, all on the thread that answers clicks. The answer is held for five seconds now: long enough to collapse a burst like that into one read, short enough that a key activated elsewhere is noticed almost at once."
     },
     {
-      "title": "The analysis estimate is readable in full",
-      "icon": "clock",
-      "text": "\u201cAbout 1 hour 3 minutes\u201d was cut off at \u201cAbout 1 hour 3 mi\u2026\u201d in the consent screen. The three figures now wrap onto a second line instead of truncating, and the three tiles stay the same height."
-    },
-    {
-      "title": "A spent free trial says so where it matters",
-      "icon": "sparkle",
-      "text": "The offer to record a meeting you joined yourself read \u201c0 trial recordings left\u201d beside a blue Start recording button. It now says \u201cNo recordings left\u201d in a colour that means it, with View plans beside it \u2014 and the offer stays up while the plans are read, because the meeting is still running."
+      "title": "Two runs of one meeting make one file",
+      "icon": "film",
+      "text": "A meeting interrupted \u2014 the Mac slept, the app was replaced \u2014 becomes a second recording beside the first, and nothing offered to join them. They merge oldest first now, and the parts can go to the Trash once the result has been measured: ffmpeg can abandon a join halfway and still leave something playable, so a merged file that plays for less than its parts did deletes nothing and says why."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.2-8",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.3-9",
   "required": false,
   "minimum_macos": "13.0"
 }
