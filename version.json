@@ -1,22 +1,17 @@
 {
   "version": "1.6",
-  "build": "16",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-16/RecordLah-v1.6-16.zip",
-  "sha256": "9a9193793fa13ebe49e59c6933680237f33546ead10ec474dceebc9fd5618f65",
-  "notes": "# A simpler way in {sparkle}\nRecordLah! opens on three choices: record what you are hearing now,\nschedule a meeting, or watch what it recorded. Scheduling asks three\nthings -- the link, when it starts, whether it repeats. Everything else\nis one button away, and Settings decides which screen you open on.\n\n# Control it from your phone {iphone}\nTurn on Settings > Phone, scan the code, approve it on the Mac. Then you\ncan schedule a recording and see what is happening without going back to\nthe Mac. Off, there is nothing listening. Part of the licence, and not in\nthe free trial -- and if a licence ever lapses, your phones stay\nconnected: adding one back switches the remote on again with nothing to\nscan.\n\n---\n\nEverything else in this release:\n\n- A recording in progress now looks like one: a red mark, a ticking\n  clock, and one Stop button. Its own page shows what it is doing,\n  whether your voice is in it, and the last lines it heard.\n- The free trial says how many recordings are left -- and if the next one\n  will not record, it says so before you press.\n- Your recordings have a simple page: the list, the transcript, the notes.\n- Search the transcript beside a recording. Press a match and the video\n  jumps to that moment.\n- The welcome screen lets you pick the simple or the advanced view, with a\n  picture of each.\n- Paste a link wrapped by your email (Safelinks, urldefense) and it is\n  unwrapped for you. A Teams or Meet link is named, not just refused.\n- A refusal keeps what you typed: the link stays in the box, the reason\n  sits under it.\n- Clearer words on the advanced screens -- \"Recordings\" not \"Done\",\n  \"Scheduled\" not \"Enabled\", and a meeting that is not saved says so.\n- Shift-Command-N schedules a recording. Command-N still opens the full\n  editor.",
+  "build": "17",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-17/RecordLah-v1.6-17.zip",
+  "sha256": "a009da4be91f4cc2e5ab63aac5e4bd69fec26f4ee59c777b67f18332253dd3ad",
+  "notes": "# Two fixes {sparkle}\nThe app sees a new version the moment it is published, and the Phone page\nsays whether your phone can actually reach this Mac.\n\n---\n\n- Check for Updates used to be answered by a cache for the first five\n  minutes after a release -- so a Mac that looked in that window was told\n  it was up to date when it was not. Every check now asks for a copy no\n  cache has seen.\n- Settings > Phone says which of four things is true: ready, reconnecting,\n  the helper is not running, or the relay cannot be reached. It no longer\n  hands out a code for a Mac a phone could not reach.",
   "highlights": [
     {
-      "title": "A simpler way in",
+      "title": "Two fixes",
       "icon": "sparkle",
-      "text": "RecordLah! opens on three choices: record what you are hearing now, schedule a meeting, or watch what it recorded. Scheduling asks three things -- the link, when it starts, whether it repeats. Everything else is one button away, and Settings decides which screen you open on."
-    },
-    {
-      "title": "Control it from your phone",
-      "icon": "iphone",
-      "text": "Turn on Settings > Phone, scan the code, approve it on the Mac. Then you can schedule a recording and see what is happening without going back to the Mac. Off, there is nothing listening. Part of the licence, and not in the free trial -- and if a licence ever lapses, your phones stay connected: adding one back switches the remote on again with nothing to scan."
+      "text": "The app sees a new version the moment it is published, and the Phone page says whether your phone can actually reach this Mac."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-16",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-17",
   "required": false,
   "minimum_macos": "13.0"
 }
