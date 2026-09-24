@@ -1,22 +1,17 @@
 {
   "version": "1.6",
-  "build": "18",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-18/RecordLah-v1.6-18.zip",
-  "sha256": "43c386c77b4beb01fdcacf3f282964829efe925fc5e795548a5ce00aadab19d3",
-  "notes": "# Record your screen, with no meeting at all {record}\n\"Record this screen\" now works when Zoom is not running: it films the\nscreen, transcribes it and files it as \"Computer screen\", with no link to\njoin and nothing to wait for. The advanced view gets it too -- the button\nat the bottom right offers it whenever nothing is recording, and File >\nRecord What I'm Hearing Now is on Command-R.\n\n# When a phone cannot reach this Mac, the app says which {iphone}\nHelp > System Check has a Phone remote row, and it tells the three faults\napart: a background helper macOS is refusing to run, a Mac that cannot\nreach the relay, and one that failed before it got there. Each is fixed\nsomewhere different, and until now they had one symptom between them --\na phone told only that its code had expired.\n\n---\n\nEverything else in this release:\n\n- Phone remote is part of the licence and is not in the free trial. If a\n  licence lapses your phones stay connected: adding one back switches the\n  remote on again with nothing to scan.\n- Saving \"Always open the advanced view\" takes you there at once, instead\n  of waiting for the next launch.\n- A screen recording is filed as \"Recorded the screen\" rather than\n  \"Recorded in meeting\", which names a meeting that never happened.\n- Diagnostics now carry why a connection failed, not just that it did.",
+  "build": "19",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-19/RecordLah-v1.6-19.zip",
+  "sha256": "b4d8071326d5096ed89a900008dbde54d3a32596b0f9cd505d0286215d2dd879",
+  "notes": "# The background helper can be restarted {gearshape}\nSettings > General > Background helper has a Restart button. It is the\none thing that rescues a helper macOS is still holding but which has\nstopped doing its rounds -- switching phone remote off and on could not,\nbecause re-installing a job launchd already has changes nothing. A Mac in\nthat state looks perfectly healthy and cannot be reached by a phone.\n\n---\n\nEverything else in this release:\n\n- A licensed Mac is no longer offered an Upgrade button in the title bar.\n- Clearing the notes question from your phone now clears it on the Mac.\n  It was being written back over by the words still on the Mac's screen.\n- Turning phone remote on restarts the helper, so it takes effect at once\n  rather than on the helper's next round.",
   "highlights": [
     {
-      "title": "Record your screen, with no meeting at all",
-      "icon": "record",
-      "text": "\"Record this screen\" now works when Zoom is not running: it films the screen, transcribes it and files it as \"Computer screen\", with no link to join and nothing to wait for. The advanced view gets it too -- the button at the bottom right offers it whenever nothing is recording, and File > Record What I'm Hearing Now is on Command-R."
-    },
-    {
-      "title": "When a phone cannot reach this Mac, the app says which",
-      "icon": "iphone",
-      "text": "Help > System Check has a Phone remote row, and it tells the three faults apart: a background helper macOS is refusing to run, a Mac that cannot reach the relay, and one that failed before it got there. Each is fixed somewhere different, and until now they had one symptom between them -- a phone told only that its code had expired."
+      "title": "The background helper can be restarted",
+      "icon": "gearshape",
+      "text": "Settings > General > Background helper has a Restart button. It is the one thing that rescues a helper macOS is still holding but which has stopped doing its rounds -- switching phone remote off and on could not, because re-installing a job launchd already has changes nothing. A Mac in that state looks perfectly healthy and cannot be reached by a phone."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-18",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-19",
   "required": false,
   "minimum_macos": "13.0"
 }
