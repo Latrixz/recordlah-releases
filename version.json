@@ -1,17 +1,17 @@
 {
   "version": "1.6",
-  "build": "19",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-19/RecordLah-v1.6-19.zip",
-  "sha256": "b4d8071326d5096ed89a900008dbde54d3a32596b0f9cd505d0286215d2dd879",
-  "notes": "# The background helper can be restarted {gearshape}\nSettings > General > Background helper has a Restart button. It is the\none thing that rescues a helper macOS is still holding but which has\nstopped doing its rounds -- switching phone remote off and on could not,\nbecause re-installing a job launchd already has changes nothing. A Mac in\nthat state looks perfectly healthy and cannot be reached by a phone.\n\n---\n\nEverything else in this release:\n\n- A licensed Mac is no longer offered an Upgrade button in the title bar.\n- Clearing the notes question from your phone now clears it on the Mac.\n  It was being written back over by the words still on the Mac's screen.\n- Turning phone remote on restarts the helper, so it takes effect at once\n  rather than on the helper's next round.",
+  "build": "20",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-20/RecordLah-v1.6-20.zip",
+  "sha256": "1d34983c51e4eea26c4e0648c789bfa748a8655ddbfeb54c1aa21cbcaf47cee5",
+  "notes": "# Phone remote keeps its connection {iphone}\nFour faults, all of them the same shape: the Mac looked healthy while\nnothing of it was running, and every code a phone scanned came back\n\"expired\". An update left launchd holding our background helper against\nthe signature it had before -- so the kernel killed it at every launch,\nand nothing in the app could see that. The helper also gave up its socket\nquietly, and dropped it whenever anything unrelated in the same pass\nfailed.\n\n---\n\nEverything else in this release:\n\n- Settings > General > Background helper has a Restart button, and it\n  restarts it properly: re-installing a job launchd already holds does\n  nothing at all.\n- A socket whose thread has stopped is replaced instead of reporting\n  itself down for ever, which needed a restart of the whole app to clear.\n- Clearing the notes question from your phone now clears it on the Mac's\n  screen as well.\n- Help > System Check names which connection fault it is, and the log\n  carries why rather than only that it failed.",
   "highlights": [
     {
-      "title": "The background helper can be restarted",
-      "icon": "gearshape",
-      "text": "Settings > General > Background helper has a Restart button. It is the one thing that rescues a helper macOS is still holding but which has stopped doing its rounds -- switching phone remote off and on could not, because re-installing a job launchd already has changes nothing. A Mac in that state looks perfectly healthy and cannot be reached by a phone."
+      "title": "Phone remote keeps its connection",
+      "icon": "iphone",
+      "text": "Four faults, all of them the same shape: the Mac looked healthy while nothing of it was running, and every code a phone scanned came back \"expired\". An update left launchd holding our background helper against the signature it had before -- so the kernel killed it at every launch, and nothing in the app could see that. The helper also gave up its socket quietly, and dropped it whenever anything unrelated in the same pass failed."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-19",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-20",
   "required": false,
   "minimum_macos": "13.0"
 }
