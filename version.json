@@ -1,17 +1,22 @@
 {
   "version": "1.6",
-  "build": "17",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-17/RecordLah-v1.6-17.zip",
-  "sha256": "a009da4be91f4cc2e5ab63aac5e4bd69fec26f4ee59c777b67f18332253dd3ad",
-  "notes": "# Two fixes {sparkle}\nThe app sees a new version the moment it is published, and the Phone page\nsays whether your phone can actually reach this Mac.\n\n---\n\n- Check for Updates used to be answered by a cache for the first five\n  minutes after a release -- so a Mac that looked in that window was told\n  it was up to date when it was not. Every check now asks for a copy no\n  cache has seen.\n- Settings > Phone says which of four things is true: ready, reconnecting,\n  the helper is not running, or the relay cannot be reached. It no longer\n  hands out a code for a Mac a phone could not reach.",
+  "build": "18",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-18/RecordLah-v1.6-18.zip",
+  "sha256": "43c386c77b4beb01fdcacf3f282964829efe925fc5e795548a5ce00aadab19d3",
+  "notes": "# Record your screen, with no meeting at all {record}\n\"Record this screen\" now works when Zoom is not running: it films the\nscreen, transcribes it and files it as \"Computer screen\", with no link to\njoin and nothing to wait for. The advanced view gets it too -- the button\nat the bottom right offers it whenever nothing is recording, and File >\nRecord What I'm Hearing Now is on Command-R.\n\n# When a phone cannot reach this Mac, the app says which {iphone}\nHelp > System Check has a Phone remote row, and it tells the three faults\napart: a background helper macOS is refusing to run, a Mac that cannot\nreach the relay, and one that failed before it got there. Each is fixed\nsomewhere different, and until now they had one symptom between them --\na phone told only that its code had expired.\n\n---\n\nEverything else in this release:\n\n- Phone remote is part of the licence and is not in the free trial. If a\n  licence lapses your phones stay connected: adding one back switches the\n  remote on again with nothing to scan.\n- Saving \"Always open the advanced view\" takes you there at once, instead\n  of waiting for the next launch.\n- A screen recording is filed as \"Recorded the screen\" rather than\n  \"Recorded in meeting\", which names a meeting that never happened.\n- Diagnostics now carry why a connection failed, not just that it did.",
   "highlights": [
     {
-      "title": "Two fixes",
-      "icon": "sparkle",
-      "text": "The app sees a new version the moment it is published, and the Phone page says whether your phone can actually reach this Mac."
+      "title": "Record your screen, with no meeting at all",
+      "icon": "record",
+      "text": "\"Record this screen\" now works when Zoom is not running: it films the screen, transcribes it and files it as \"Computer screen\", with no link to join and nothing to wait for. The advanced view gets it too -- the button at the bottom right offers it whenever nothing is recording, and File > Record What I'm Hearing Now is on Command-R."
+    },
+    {
+      "title": "When a phone cannot reach this Mac, the app says which",
+      "icon": "iphone",
+      "text": "Help > System Check has a Phone remote row, and it tells the three faults apart: a background helper macOS is refusing to run, a Mac that cannot reach the relay, and one that failed before it got there. Each is fixed somewhere different, and until now they had one symptom between them -- a phone told only that its code had expired."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-17",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-18",
   "required": false,
   "minimum_macos": "13.0"
 }
