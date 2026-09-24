@@ -1,17 +1,17 @@
 {
   "version": "1.8",
-  "build": "24",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-24/RecordLah-v1.8-24.zip",
-  "sha256": "15c7d7495e0272f64d654d2bfadee2bb56ec66dd97a2acac6c3cb018253d3b8a",
-  "notes": "# Live access switches on again {iphone}\nTurning on listening or watching for a phone did nothing at all in Build\n23 \u2014 the switch moved and nothing was saved. It works now, and it stays\non when you leave the page and come back.\n\n---\n\nEverything else in this release:\n\n- The meeting's own page says when a phone is watching or listening, and\n  lets you stop it, without disturbing a transcript you are reading.",
+  "build": "25",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-25/RecordLah-v1.8-25.zip",
+  "sha256": "e69f3e55cea7f12faaa2c64f70290936d547e5ca70d4fc63986f325da967a716",
+  "notes": "# A dropped connection says so {antenna.radiowaves.left.and.right}\nA phone that lost its connection to this Mac sat on \"Reconnecting\" for as\nlong as you looked at it. It now says the connection dropped, and one tap\nstarts again.\n\n---\n\nEverything else in this release:\n\n- A live session that has dropped no longer holds the place, so another\n  phone is not told somebody else is watching when nobody is.",
   "highlights": [
     {
-      "title": "Live access switches on again",
-      "icon": "iphone",
-      "text": "Turning on listening or watching for a phone did nothing at all in Build 23 \u2014 the switch moved and nothing was saved. It works now, and it stays on when you leave the page and come back."
+      "title": "A dropped connection says so {antenna.radiowaves.left.and.right}",
+      "icon": "sparkle",
+      "text": "A phone that lost its connection to this Mac sat on \"Reconnecting\" for as long as you looked at it. It now says the connection dropped, and one tap starts again."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-24",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-25",
   "required": false,
   "minimum_macos": "13.0"
 }
