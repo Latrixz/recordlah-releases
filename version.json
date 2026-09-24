@@ -1,17 +1,22 @@
 {
-  "version": "1.6",
-  "build": "20",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.6-20/RecordLah-v1.6-20.zip",
-  "sha256": "1d34983c51e4eea26c4e0648c789bfa748a8655ddbfeb54c1aa21cbcaf47cee5",
-  "notes": "# Phone remote keeps its connection {iphone}\nFour faults, all of them the same shape: the Mac looked healthy while\nnothing of it was running, and every code a phone scanned came back\n\"expired\". An update left launchd holding our background helper against\nthe signature it had before -- so the kernel killed it at every launch,\nand nothing in the app could see that. The helper also gave up its socket\nquietly, and dropped it whenever anything unrelated in the same pass\nfailed.\n\n---\n\nEverything else in this release:\n\n- Settings > General > Background helper has a Restart button, and it\n  restarts it properly: re-installing a job launchd already holds does\n  nothing at all.\n- A socket whose thread has stopped is replaced instead of reporting\n  itself down for ever, which needed a restart of the whole app to clear.\n- Clearing the notes question from your phone now clears it on the Mac's\n  screen as well.\n- Help > System Check names which connection fault it is, and the log\n  carries why rather than only that it failed.",
+  "version": "1.7",
+  "build": "21",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.7-21/RecordLah-v1.7-21.zip",
+  "sha256": "a50cd4ef8786fdb8f62f18548d4efbf905278ab4685ed9e8978b61e6ae6aae77",
+  "notes": "# Listen to a meeting while it records {headphones}\nYour phone can hear what the recording is hearing, live. It is the\nrecording's own mixed sound -- what the file will have -- so it is never\nthe Mac's microphone on its own, and nothing extra is captured to send\nit. Turn it on per phone under Settings > Remote.\n\n# Connect a phone by typing a code {iphone}\nThe Mac shows eight characters under the QR now, so a phone can be\nconnected without scanning anything. That matters for a remote added to\nan iPhone Home Screen: scanning opens Safari, which is a different place\nas far as the phone is concerned, so it paired the browser and the icon\non the Home Screen went on saying it was not connected.\n\n---\n\nEverything else in this release:\n\n- Connected phones are a list you manage: what each one may reach, when\n  it last asked for anything, and audio or screen access you can take\n  back at any time.\n- Stop works from anywhere. A stop sent from a phone used to leave the\n  Mac still offering to stop it, until the run vanished from under it.\n- The remote's screens each start at their top, and its title bar leaves\n  room for the phone's clock when the app is saved to a Home Screen.\n- Choosing a time zone slides up properly, can be pulled down to close,\n  and stops above the keyboard rather than behind it.\n- Confirming a recording, and the screen after it, look like the\n  recording they are about -- the same card the lists use. A recording\n  opened from Past recordings lands on the row it was opened from.",
   "highlights": [
     {
-      "title": "Phone remote keeps its connection",
+      "title": "Listen to a meeting while it records",
+      "icon": "headphones",
+      "text": "Your phone can hear what the recording is hearing, live. It is the recording's own mixed sound -- what the file will have -- so it is never the Mac's microphone on its own, and nothing extra is captured to send it. Turn it on per phone under Settings > Remote."
+    },
+    {
+      "title": "Connect a phone by typing a code",
       "icon": "iphone",
-      "text": "Four faults, all of them the same shape: the Mac looked healthy while nothing of it was running, and every code a phone scanned came back \"expired\". An update left launchd holding our background helper against the signature it had before -- so the kernel killed it at every launch, and nothing in the app could see that. The helper also gave up its socket quietly, and dropped it whenever anything unrelated in the same pass failed."
+      "text": "The Mac shows eight characters under the QR now, so a phone can be connected without scanning anything. That matters for a remote added to an iPhone Home Screen: scanning opens Safari, which is a different place as far as the phone is concerned, so it paired the browser and the icon on the Home Screen went on saying it was not connected."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.6-20",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.7-21",
   "required": false,
   "minimum_macos": "13.0"
 }
