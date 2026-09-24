@@ -6,8 +6,8 @@
   "notes": "# A dropped connection says so {antenna.radiowaves.left.and.right}\nA phone that lost its connection to this Mac sat on \"Reconnecting\" for as\nlong as you looked at it. It now says the connection dropped, and one tap\nstarts again.\n\n---\n\nEverything else in this release:\n\n- A live session that has dropped no longer holds the place, so another\n  phone is not told somebody else is watching when nobody is.",
   "highlights": [
     {
-      "title": "A dropped connection says so {antenna.radiowaves.left.and.right}",
-      "icon": "sparkle",
+      "title": "A dropped connection says so",
+      "icon": "antenna.radiowaves.left.and.right",
       "text": "A phone that lost its connection to this Mac sat on \"Reconnecting\" for as long as you looked at it. It now says the connection dropped, and one tap starts again."
     }
   ],
