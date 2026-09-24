@@ -1,17 +1,17 @@
 {
-  "version": "1.7",
-  "build": "22",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.7-22/RecordLah-v1.7-22.zip",
-  "sha256": "ba9d25861ccb061e91f2cd0501724ca1465e81d9ecc2113804b4a122fdbf4562",
-  "notes": "# Listening is back where it belongs {headphones}\nThe card that shows a phone listening in on a recording, and the switches\nthat give a phone access or take it back, were missing from Build 21.\nThey are back.\n\n---\n\nEverything else in this release:\n\n- Stopping live access from the Mac ends the session for that phone and\n  leaves the recording running.",
+  "version": "1.8",
+  "build": "23",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-23/RecordLah-v1.8-23.zip",
+  "sha256": "77a44d4e24c757710c2e696eea80994fad71f6304b7b01b5a5c5ad1d3b435f85",
+  "notes": "# Watch the meeting from your phone {eye}\nA phone that is allowed to watch can now see the meeting while it is\nbeing recorded, not only hear it. Tap the picture to fill the screen and\nturn the phone for a bigger one, and when somebody shares their screen\nthe view follows it.\n\n---\n\nEverything else in this release:\n\n- The Stop button on this Mac says \"Stopping\u2026\" when a recording is\n  stopped from a phone, not only when you stop it here.\n- This Mac now tells you when a scheduled recording starts, finishes, or\n  cannot run at all \u2014 and Settings \u203a Alerts says why macOS hides those\n  while your screen is being shared.\n- Live access you switch on for a phone stays on. It could be lost a\n  second later while that phone was asking the Mac for its status.\n- A recording no longer disappears from the app while it is still\n  running.",
   "highlights": [
     {
-      "title": "Listening is back where it belongs",
-      "icon": "headphones",
-      "text": "The card that shows a phone listening in on a recording, and the switches that give a phone access or take it back, were missing from Build 21. They are back."
+      "title": "Watch the meeting from your phone",
+      "icon": "eye",
+      "text": "A phone that is allowed to watch can now see the meeting while it is being recorded, not only hear it. Tap the picture to fill the screen and turn the phone for a bigger one, and when somebody shares their screen the view follows it."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.7-22",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-23",
   "required": false,
   "minimum_macos": "13.0"
 }
