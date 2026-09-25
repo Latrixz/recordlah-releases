@@ -1,17 +1,17 @@
 {
   "version": "1.8",
-  "build": "25",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-25/RecordLah-v1.8-25.zip",
-  "sha256": "e69f3e55cea7f12faaa2c64f70290936d547e5ca70d4fc63986f325da967a716",
-  "notes": "# A dropped connection says so {antenna.radiowaves.left.and.right}\nA phone that lost its connection to this Mac sat on \"Reconnecting\" for as\nlong as you looked at it. It now says the connection dropped, and one tap\nstarts again.\n\n---\n\nEverything else in this release:\n\n- A live session that has dropped no longer holds the place, so another\n  phone is not told somebody else is watching when nobody is.",
+  "build": "26",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-26/RecordLah-v1.8-26.zip",
+  "sha256": "024e4076eec16d6f5bd1750448b4138c175a984fedc267482559893828acec15",
+  "notes": "# The phone stays connected {wave}\nThe connection your phone reaches this Mac through could be dropped and\nleft down, and nothing here noticed \u2014 the phone said \"Reconnecting\" and\nthe Mac looked fine. This Mac now puts it back by itself, whether or not\nthe app is open.\n\n---\n\nEverything else in this release:\n\n- When it cannot be put back, the Mac says so in its log instead of\n  leaving you to work out why the phone is quiet.",
   "highlights": [
     {
-      "title": "A dropped connection says so",
-      "icon": "antenna.radiowaves.left.and.right",
-      "text": "A phone that lost its connection to this Mac sat on \"Reconnecting\" for as long as you looked at it. It now says the connection dropped, and one tap starts again."
+      "title": "The phone stays connected",
+      "icon": "wave",
+      "text": "The connection your phone reaches this Mac through could be dropped and left down, and nothing here noticed \u2014 the phone said \"Reconnecting\" and the Mac looked fine. This Mac now puts it back by itself, whether or not the app is open."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-25",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-26",
   "required": false,
   "minimum_macos": "13.0"
 }
