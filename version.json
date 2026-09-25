@@ -1,17 +1,27 @@
 {
-  "version": "1.8",
-  "build": "26",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.8-26/RecordLah-v1.8-26.zip",
-  "sha256": "024e4076eec16d6f5bd1750448b4138c175a984fedc267482559893828acec15",
-  "notes": "# The phone stays connected {wave}\nThe connection your phone reaches this Mac through could be dropped and\nleft down, and nothing here noticed \u2014 the phone said \"Reconnecting\" and\nthe Mac looked fine. This Mac now puts it back by itself, whether or not\nthe app is open.\n\n---\n\nEverything else in this release:\n\n- When it cannot be put back, the Mac says so in its log instead of\n  leaving you to work out why the phone is quiet.",
+  "version": "1.9",
+  "build": "27",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-27/RecordLah-v1.9-27.zip",
+  "sha256": "78e4a3dc1f9e872bdd768ec656d5951ba152b1af274bde6a1d45f2296d695d2d",
+  "notes": "# Setting up walks you through it {checkmark.seal}\nThe first launch now asks for each macOS permission one at a time, says what it\nlets RecordLah do \u2014 and what it does not \u2014 and waits for that one before moving\non. Nothing appears behind your back any more.\n\n# Leaving a meeting takes two seconds {door.left.hand.open}\nIt took eleven. Worse, as the host it was pressing Zoom's default button, which\nends the meeting for everyone instead of just leaving it. It now clicks Leave\nmeeting by name.\n\n# The phone remote answers straight away {iphone}\nEvery reading it asks for was taking the Mac about a second, sometimes twelve.\nNow it is a tenth of a second.\n\n---\n\nEverything else in this release:\n\n- **Your Mac has stopped photographing its own screen.** Checking the Screen\n  Recording permission took a real screenshot, and with a phone screen open it\n  did that every eight seconds. It now checks once, and clears up the 527 old\n  screenshots (779MB) that had collected since August.\n- **Scan to connect a phone.** The remote's home page can read the code from\n  the Mac with the camera instead of you typing eight characters \u2014 and scanning\n  from inside the app pairs the app, which scanning with the Camera app does\n  not.\n- **Keep-awake says what it cannot do.** The setting now warns that nothing\n  holds sleep off once the lid is closed: leave it open and plugged in.\n- Leaving a meeting says what Zoom asked and what was pressed, so a leave that\n  goes wrong can be read afterwards instead of guessed at.\n- The first-run screen is no longer used up before it can be shown. On a new\n  Mac it was being marked as seen about two seconds before the licence answer\n  it needs arrived.\n- Pull down to refresh in the phone remote saved to a Home Screen, and the\n  paddings around the notch are no longer counted twice.",
   "highlights": [
     {
-      "title": "The phone stays connected",
-      "icon": "wave",
-      "text": "The connection your phone reaches this Mac through could be dropped and left down, and nothing here noticed \u2014 the phone said \"Reconnecting\" and the Mac looked fine. This Mac now puts it back by itself, whether or not the app is open."
+      "title": "Setting up walks you through it",
+      "icon": "checkmark.seal",
+      "text": "The first launch now asks for each macOS permission one at a time, says what it lets RecordLah do \u2014 and what it does not \u2014 and waits for that one before moving on. Nothing appears behind your back any more."
+    },
+    {
+      "title": "Leaving a meeting takes two seconds",
+      "icon": "door.left.hand.open",
+      "text": "It took eleven. Worse, as the host it was pressing Zoom's default button, which ends the meeting for everyone instead of just leaving it. It now clicks Leave meeting by name."
+    },
+    {
+      "title": "The phone remote answers straight away",
+      "icon": "iphone",
+      "text": "Every reading it asks for was taking the Mac about a second, sometimes twelve. Now it is a tenth of a second."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.8-26",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-27",
   "required": false,
   "minimum_macos": "13.0"
 }
