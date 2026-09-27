@@ -1,27 +1,27 @@
 {
   "version": "1.9",
-  "build": "27",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-27/RecordLah-v1.9-27.zip",
-  "sha256": "78e4a3dc1f9e872bdd768ec656d5951ba152b1af274bde6a1d45f2296d695d2d",
-  "notes": "# Setting up walks you through it {checkmark.seal}\nThe first launch now asks for each macOS permission one at a time, says what it\nlets RecordLah do \u2014 and what it does not \u2014 and waits for that one before moving\non. Nothing appears behind your back any more.\n\n# Leaving a meeting takes two seconds {door.left.hand.open}\nIt took eleven. Worse, as the host it was pressing Zoom's default button, which\nends the meeting for everyone instead of just leaving it. It now clicks Leave\nmeeting by name.\n\n# The phone remote answers straight away {iphone}\nEvery reading it asks for was taking the Mac about a second, sometimes twelve.\nNow it is a tenth of a second.\n\n---\n\nEverything else in this release:\n\n- **Your Mac has stopped photographing its own screen.** Checking the Screen\n  Recording permission took a real screenshot, and with a phone screen open it\n  did that every eight seconds. It now checks once, and clears up the 527 old\n  screenshots (779MB) that had collected since August.\n- **Scan to connect a phone.** The remote's home page can read the code from\n  the Mac with the camera instead of you typing eight characters \u2014 and scanning\n  from inside the app pairs the app, which scanning with the Camera app does\n  not.\n- **Keep-awake says what it cannot do.** The setting now warns that nothing\n  holds sleep off once the lid is closed: leave it open and plugged in.\n- Leaving a meeting says what Zoom asked and what was pressed, so a leave that\n  goes wrong can be read afterwards instead of guessed at.\n- The first-run screen is no longer used up before it can be shown. On a new\n  Mac it was being marked as seen about two seconds before the licence answer\n  it needs arrived.\n- Pull down to refresh in the phone remote saved to a Home Screen, and the\n  paddings around the notch are no longer counted twice.",
+  "build": "28",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-28/RecordLah-v1.9-28.zip",
+  "sha256": "64e0baae204bb08ac6d8ebf79e7f12647c89b566c9e395ed9de8aaf9c3441cdd",
+  "notes": "# Fewer notifications you did not need {iphone}\nA Mac on battery is now mentioned only below 50%, and only once \u2014 not for\nevery meeting due and again when the recording starts. And when the capture\nmoves to the screen, it no longer says you were sharing unless you were.\n\n# Notes say when there is no key {notes}\nSwitching on \u201cNotes when it ends\u201d without a Gemini key promised a summary\nthat was never going to be written. It now says so, on the Mac and on your\nphone, and still lets you switch it on \u2014 the key can go in before the\nmeeting.\n\n# Removing a folder brings its recordings out {folder}\nThey used to go back to No folder in the app and stay inside the folder in\nFinder. Now they move out with the meetings, and the empty folder goes.\n\n---\n\nEverything else in this release:\n\n- Merging a run's parts into one file keeps what they knew: your voice, the\n  chat notice, handouts, the transcript and any notes already made. A\n  catch-up run also stays a catch-up run instead of reading as scheduled.\n- The battery is still reported at any charge when macOS no longer trusts\n  it, or when the charge cannot be read at all.\n- The app tells the licence server whether it is a Mac or a PC, and which\n  version of the OS. Licence messages now name what is holding a seat, so\n  \u201calready in use\u201d says which machine to release.",
   "highlights": [
     {
-      "title": "Setting up walks you through it",
-      "icon": "checkmark.seal",
-      "text": "The first launch now asks for each macOS permission one at a time, says what it lets RecordLah do \u2014 and what it does not \u2014 and waits for that one before moving on. Nothing appears behind your back any more."
-    },
-    {
-      "title": "Leaving a meeting takes two seconds",
-      "icon": "door.left.hand.open",
-      "text": "It took eleven. Worse, as the host it was pressing Zoom's default button, which ends the meeting for everyone instead of just leaving it. It now clicks Leave meeting by name."
-    },
-    {
-      "title": "The phone remote answers straight away",
+      "title": "Fewer notifications you did not need",
       "icon": "iphone",
-      "text": "Every reading it asks for was taking the Mac about a second, sometimes twelve. Now it is a tenth of a second."
+      "text": "A Mac on battery is now mentioned only below 50%, and only once \u2014 not for every meeting due and again when the recording starts. And when the capture moves to the screen, it no longer says you were sharing unless you were."
+    },
+    {
+      "title": "Notes say when there is no key",
+      "icon": "notes",
+      "text": "Switching on \u201cNotes when it ends\u201d without a Gemini key promised a summary that was never going to be written. It now says so, on the Mac and on your phone, and still lets you switch it on \u2014 the key can go in before the meeting."
+    },
+    {
+      "title": "Removing a folder brings its recordings out",
+      "icon": "folder",
+      "text": "They used to go back to No folder in the app and stay inside the folder in Finder. Now they move out with the meetings, and the empty folder goes."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-27",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-28",
   "required": false,
   "minimum_macos": "13.0"
 }
