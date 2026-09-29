@@ -1,32 +1,27 @@
 {
   "version": "1.9",
-  "build": "29",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-29/RecordLah-v1.9-29.zip",
-  "sha256": "cdb341315b7447f5b2b8a456be5d91bf5f983493ce48f18814ca6d23ebd6e567",
-  "notes": "# Your phone stops saying the Mac is offline {link}\nThe remote showed \"reconnecting\", then \"offline\", with the Mac awake and\nanswering in a third of a second \u2014 the connection had gone half-open and\nnothing could tell that from a quiet one. The Mac now notices the network\ngoing within seconds rather than minutes, and reconnects within seconds of\nit coming back.\n\n# Read the transcript, not the video {notes}\n\"View transcript\" used to open the player, with the words down the side of\na picture. It now opens the words on their own: every line timed, the one\nbeing spoken lit, and search that filters as you type. Click a line to\nhear it.\n\n# Names on the right lines {mic}\nEvery line of a transcript said \"Meeting audio\", even in a six-person\nclass. The name now comes from Zoom's own active-speaker mark, read in the\nmeeting's own window rather than the toast that sits in front of it.\n\n# The simple screen follows your window {sparkle}\nIt fills the window now, full screen included, instead of sitting in a\nfixed column that drifted sideways as you resized. Up next and This week\nsit side by side at any size, and it says when Zoom has been spotted.\n\n---\n\nEverything else in this release:\n\n- A long transcript opens at once. Rendering it line by line took seconds\n  on a two-hour meeting; only the lines on screen are drawn now.\n- The System Check keeps itself up to date: something that fixes itself no\n  longer waits for you to press Check again, and a window it opened on its\n  own closes once everything passes.\n- It also stops appearing for a moment while you change WiFi, and stops\n  calling a flat battery or an unreachable remote a permission.\n- Your phone keeps its pairing when the Mac cannot read its list of paired\n  phones. It used to be told it had been unpaired, which a phone acts on by\n  forgetting the Mac.\n- The elapsed time on the simple screen no longer sticks at 0:01, and the\n  home button no longer appears on the home screen.\n- The prompt for what Gemini should look for can be scrolled past four\n  lines, and asking a recording a question works after a follow-up.\n- \"Transcribe again\" says \"Transcribing\u2026\" while it runs, instead of going\n  quietly grey.\n- Reading a transcript beside the video no longer drags itself back to the\n  top when you scroll.\n- A failed join no longer leaves its browser pages open, launching another\n  Zoom each time. The last page stays, so you can see why it failed.\n- Stop a recording from the home card; change what can still be changed on\n  a run's own page; and pick a meeting's time zone where the flow asks for\n  it.",
+  "build": "30",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-30/RecordLah-v1.9-30.zip",
+  "sha256": "a5b9abc7a5d79154f139696e23a32fb375bd5fc7389b8dc77c8008484c39261a",
+  "notes": "# See what was saved {checkmark.circle}\nWhen a recording ends, its page now shows what was kept: the audio, the\ntranscript and the notes, each marked Saved, Processing or Queued until it\nlands.\n\n# Pause the transcript from the recording page {pause.circle}\nThe live transcript card has Pause and Show over meeting. The recording\nkeeps going either way.\n\n# A quicker meetings list {list.bullet}\nRows light up under the pointer. Shift-click picks a run of meetings in\nSelect. Return plays the one that is open, and the arrow keys no longer\nthrow away changes you have not saved.\n\n---\n\nEverything else in this release:\n\n- Singapore English is no longer refused as \"several languages\" when a\n  transcript is read again.\n- A transcript opened before it was finished no longer says \"0 words\".\n- Alone in a meeting, your own name is no longer given to the other voice.\n- A meeting named in Chinese no longer stops the app noticing it is\n  recording.\n- Your phone says whether it is connected to a Mac or a PC.\n- A phone disconnected while the Mac was asleep drops off Connected phones.",
   "highlights": [
     {
-      "title": "Your phone stops saying the Mac is offline",
-      "icon": "link",
-      "text": "The remote showed \"reconnecting\", then \"offline\", with the Mac awake and answering in a third of a second \u2014 the connection had gone half-open and nothing could tell that from a quiet one. The Mac now notices the network going within seconds rather than minutes, and reconnects within seconds of it coming back."
+      "title": "See what was saved",
+      "icon": "checkmark.circle",
+      "text": "When a recording ends, its page now shows what was kept: the audio, the transcript and the notes, each marked Saved, Processing or Queued until it lands."
     },
     {
-      "title": "Read the transcript, not the video",
-      "icon": "notes",
-      "text": "\"View transcript\" used to open the player, with the words down the side of a picture. It now opens the words on their own: every line timed, the one being spoken lit, and search that filters as you type. Click a line to hear it."
+      "title": "Pause the transcript from the recording page",
+      "icon": "pause.circle",
+      "text": "The live transcript card has Pause and Show over meeting. The recording keeps going either way."
     },
     {
-      "title": "Names on the right lines",
-      "icon": "mic",
-      "text": "Every line of a transcript said \"Meeting audio\", even in a six-person class. The name now comes from Zoom's own active-speaker mark, read in the meeting's own window rather than the toast that sits in front of it."
-    },
-    {
-      "title": "The simple screen follows your window",
-      "icon": "sparkle",
-      "text": "It fills the window now, full screen included, instead of sitting in a fixed column that drifted sideways as you resized. Up next and This week sit side by side at any size, and it says when Zoom has been spotted."
+      "title": "A quicker meetings list",
+      "icon": "list.bullet",
+      "text": "Rows light up under the pointer. Shift-click picks a run of meetings in Select. Return plays the one that is open, and the arrow keys no longer throw away changes you have not saved."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-29",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-30",
   "required": false,
   "minimum_macos": "13.0"
 }
