@@ -1,27 +1,17 @@
 {
   "version": "1.9",
-  "build": "30",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-30/RecordLah-v1.9-30.zip",
-  "sha256": "a5b9abc7a5d79154f139696e23a32fb375bd5fc7389b8dc77c8008484c39261a",
-  "notes": "# See what was saved {checkmark.circle}\nWhen a recording ends, its page now shows what was kept: the audio, the\ntranscript and the notes, each marked Saved, Processing or Queued until it\nlands.\n\n# Pause the transcript from the recording page {pause.circle}\nThe live transcript card has Pause and Show over meeting. The recording\nkeeps going either way.\n\n# A quicker meetings list {list.bullet}\nRows light up under the pointer. Shift-click picks a run of meetings in\nSelect. Return plays the one that is open, and the arrow keys no longer\nthrow away changes you have not saved.\n\n---\n\nEverything else in this release:\n\n- Singapore English is no longer refused as \"several languages\" when a\n  transcript is read again.\n- A transcript opened before it was finished no longer says \"0 words\".\n- Alone in a meeting, your own name is no longer given to the other voice.\n- A meeting named in Chinese no longer stops the app noticing it is\n  recording.\n- Your phone says whether it is connected to a Mac or a PC.\n- A phone disconnected while the Mac was asleep drops off Connected phones.",
+  "build": "31",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-31/RecordLah-v1.9-31.zip",
+  "sha256": "a11e79b586b5f1a484cb658641ef57f47f6060b4ba3c466990d9a9ef2d3fa7da",
+  "notes": "# The simple screen fits your screen {sparkle}\nOn a smaller display the window was forced wider and taller than the\nscreen itself, so the right-hand column sat off the edge \u2014 \"This week\"\ncut through the middle of its own number \u2014 and it could not be dragged\nback, because the size it insisted on was larger than the screen had\nroom for. It now fits whatever screen it is on, and the cards give way\nbefore the window does.",
   "highlights": [
     {
-      "title": "See what was saved",
-      "icon": "checkmark.circle",
-      "text": "When a recording ends, its page now shows what was kept: the audio, the transcript and the notes, each marked Saved, Processing or Queued until it lands."
-    },
-    {
-      "title": "Pause the transcript from the recording page",
-      "icon": "pause.circle",
-      "text": "The live transcript card has Pause and Show over meeting. The recording keeps going either way."
-    },
-    {
-      "title": "A quicker meetings list",
-      "icon": "list.bullet",
-      "text": "Rows light up under the pointer. Shift-click picks a run of meetings in Select. Return plays the one that is open, and the arrow keys no longer throw away changes you have not saved."
+      "title": "The simple screen fits your screen",
+      "icon": "sparkle",
+      "text": "On a smaller display the window was forced wider and taller than the screen itself, so the right-hand column sat off the edge \u2014 \"This week\" cut through the middle of its own number \u2014 and it could not be dragged back, because the size it insisted on was larger than the screen had room for. It now fits whatever screen it is on, and the cards give way before the window does."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-30",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-31",
   "required": false,
   "minimum_macos": "13.0"
 }
