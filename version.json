@@ -1,27 +1,32 @@
 {
   "version": "1.9",
-  "build": "28",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-28/RecordLah-v1.9-28.zip",
-  "sha256": "64e0baae204bb08ac6d8ebf79e7f12647c89b566c9e395ed9de8aaf9c3441cdd",
-  "notes": "# Fewer notifications you did not need {iphone}\nA Mac on battery is now mentioned only below 50%, and only once \u2014 not for\nevery meeting due and again when the recording starts. And when the capture\nmoves to the screen, it no longer says you were sharing unless you were.\n\n# Notes say when there is no key {notes}\nSwitching on \u201cNotes when it ends\u201d without a Gemini key promised a summary\nthat was never going to be written. It now says so, on the Mac and on your\nphone, and still lets you switch it on \u2014 the key can go in before the\nmeeting.\n\n# Removing a folder brings its recordings out {folder}\nThey used to go back to No folder in the app and stay inside the folder in\nFinder. Now they move out with the meetings, and the empty folder goes.\n\n---\n\nEverything else in this release:\n\n- Merging a run's parts into one file keeps what they knew: your voice, the\n  chat notice, handouts, the transcript and any notes already made. A\n  catch-up run also stays a catch-up run instead of reading as scheduled.\n- The battery is still reported at any charge when macOS no longer trusts\n  it, or when the charge cannot be read at all.\n- The app tells the licence server whether it is a Mac or a PC, and which\n  version of the OS. Licence messages now name what is holding a seat, so\n  \u201calready in use\u201d says which machine to release.",
+  "build": "29",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-29/RecordLah-v1.9-29.zip",
+  "sha256": "cdb341315b7447f5b2b8a456be5d91bf5f983493ce48f18814ca6d23ebd6e567",
+  "notes": "# Your phone stops saying the Mac is offline {link}\nThe remote showed \"reconnecting\", then \"offline\", with the Mac awake and\nanswering in a third of a second \u2014 the connection had gone half-open and\nnothing could tell that from a quiet one. The Mac now notices the network\ngoing within seconds rather than minutes, and reconnects within seconds of\nit coming back.\n\n# Read the transcript, not the video {notes}\n\"View transcript\" used to open the player, with the words down the side of\na picture. It now opens the words on their own: every line timed, the one\nbeing spoken lit, and search that filters as you type. Click a line to\nhear it.\n\n# Names on the right lines {mic}\nEvery line of a transcript said \"Meeting audio\", even in a six-person\nclass. The name now comes from Zoom's own active-speaker mark, read in the\nmeeting's own window rather than the toast that sits in front of it.\n\n# The simple screen follows your window {sparkle}\nIt fills the window now, full screen included, instead of sitting in a\nfixed column that drifted sideways as you resized. Up next and This week\nsit side by side at any size, and it says when Zoom has been spotted.\n\n---\n\nEverything else in this release:\n\n- A long transcript opens at once. Rendering it line by line took seconds\n  on a two-hour meeting; only the lines on screen are drawn now.\n- The System Check keeps itself up to date: something that fixes itself no\n  longer waits for you to press Check again, and a window it opened on its\n  own closes once everything passes.\n- It also stops appearing for a moment while you change WiFi, and stops\n  calling a flat battery or an unreachable remote a permission.\n- Your phone keeps its pairing when the Mac cannot read its list of paired\n  phones. It used to be told it had been unpaired, which a phone acts on by\n  forgetting the Mac.\n- The elapsed time on the simple screen no longer sticks at 0:01, and the\n  home button no longer appears on the home screen.\n- The prompt for what Gemini should look for can be scrolled past four\n  lines, and asking a recording a question works after a follow-up.\n- \"Transcribe again\" says \"Transcribing\u2026\" while it runs, instead of going\n  quietly grey.\n- Reading a transcript beside the video no longer drags itself back to the\n  top when you scroll.\n- A failed join no longer leaves its browser pages open, launching another\n  Zoom each time. The last page stays, so you can see why it failed.\n- Stop a recording from the home card; change what can still be changed on\n  a run's own page; and pick a meeting's time zone where the flow asks for\n  it.",
   "highlights": [
     {
-      "title": "Fewer notifications you did not need",
-      "icon": "iphone",
-      "text": "A Mac on battery is now mentioned only below 50%, and only once \u2014 not for every meeting due and again when the recording starts. And when the capture moves to the screen, it no longer says you were sharing unless you were."
+      "title": "Your phone stops saying the Mac is offline",
+      "icon": "link",
+      "text": "The remote showed \"reconnecting\", then \"offline\", with the Mac awake and answering in a third of a second \u2014 the connection had gone half-open and nothing could tell that from a quiet one. The Mac now notices the network going within seconds rather than minutes, and reconnects within seconds of it coming back."
     },
     {
-      "title": "Notes say when there is no key",
+      "title": "Read the transcript, not the video",
       "icon": "notes",
-      "text": "Switching on \u201cNotes when it ends\u201d without a Gemini key promised a summary that was never going to be written. It now says so, on the Mac and on your phone, and still lets you switch it on \u2014 the key can go in before the meeting."
+      "text": "\"View transcript\" used to open the player, with the words down the side of a picture. It now opens the words on their own: every line timed, the one being spoken lit, and search that filters as you type. Click a line to hear it."
     },
     {
-      "title": "Removing a folder brings its recordings out",
-      "icon": "folder",
-      "text": "They used to go back to No folder in the app and stay inside the folder in Finder. Now they move out with the meetings, and the empty folder goes."
+      "title": "Names on the right lines",
+      "icon": "mic",
+      "text": "Every line of a transcript said \"Meeting audio\", even in a six-person class. The name now comes from Zoom's own active-speaker mark, read in the meeting's own window rather than the toast that sits in front of it."
+    },
+    {
+      "title": "The simple screen follows your window",
+      "icon": "sparkle",
+      "text": "It fills the window now, full screen included, instead of sitting in a fixed column that drifted sideways as you resized. Up next and This week sit side by side at any size, and it says when Zoom has been spotted."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-28",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-29",
   "required": false,
   "minimum_macos": "13.0"
 }
