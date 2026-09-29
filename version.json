@@ -1,27 +1,17 @@
 {
   "version": "1.9",
-  "build": "32",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-32/RecordLah-v1.9-32.zip",
-  "sha256": "a9b786ed4261d525b4250b12b9ab1aff2330ab0fee54f34ff7a525067ef7961f",
-  "notes": "# Clear sound when you listen from your phone {waveform}\nListening or watching live used to crackle and cut out, even in a silent\nmeeting. The sound now comes through clean and steady.\n\n# Talk in the meeting's chat from your phone {text.bubble}\nType a message on your phone and it appears in the meeting's chat, in\nyour name. The Mac asks you first before any phone is allowed to.\n\n# A recording stays in one piece {record.circle}\nA quiet meeting was mistaken for Zoom going blank, so the recording\nswitched to your whole screen and back, splitting the file. It now stays\non the meeting.\n\n---\n\nEverything else in this release:\n\n- Watching live works on mobile data, not only on Wi-Fi.\n- The live picture keeps the meeting window's shape, with no black band.\n- The recording time shown on the Mac and your phone no longer jumps back\n  to zero partway through.\n- A recording you start from anywhere opens in the app straight away.\n- When you stop a recording from your phone, the alert says so.\n- Your phone says what needs fixing on the Mac, not just which check.",
+  "build": "33",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-33/RecordLah-v1.9-33.zip",
+  "sha256": "2f59dba3d3eef8c5305d3682d09bf5ca0eb0a6e85ce33e6392bfb7bce892aa98",
+  "notes": "# Slow live views can be tracked down {antenna.radiowaves.left.and.right}\nRecordLah now notes whether your phone's live view went straight to your\ncomputer or through our relay, so a slow or dropped watch can be traced\nand fixed.\n\n---\n\nEverything else in this release:\n\n- Messages about what a phone may do now name the right computer.",
   "highlights": [
     {
-      "title": "Clear sound when you listen from your phone",
-      "icon": "waveform",
-      "text": "Listening or watching live used to crackle and cut out, even in a silent meeting. The sound now comes through clean and steady."
-    },
-    {
-      "title": "Talk in the meeting's chat from your phone",
-      "icon": "text.bubble",
-      "text": "Type a message on your phone and it appears in the meeting's chat, in your name. The Mac asks you first before any phone is allowed to."
-    },
-    {
-      "title": "A recording stays in one piece",
-      "icon": "record.circle",
-      "text": "A quiet meeting was mistaken for Zoom going blank, so the recording switched to your whole screen and back, splitting the file. It now stays on the meeting."
+      "title": "Slow live views can be tracked down",
+      "icon": "antenna.radiowaves.left.and.right",
+      "text": "RecordLah now notes whether your phone's live view went straight to your computer or through our relay, so a slow or dropped watch can be traced and fixed."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-32",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-33",
   "required": false,
   "minimum_macos": "13.0"
 }
