@@ -1,17 +1,22 @@
 {
   "version": "1.9",
-  "build": "33",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-33/RecordLah-v1.9-33.zip",
-  "sha256": "2f59dba3d3eef8c5305d3682d09bf5ca0eb0a6e85ce33e6392bfb7bce892aa98",
-  "notes": "# Slow live views can be tracked down {antenna.radiowaves.left.and.right}\nRecordLah now notes whether your phone's live view went straight to your\ncomputer or through our relay, so a slow or dropped watch can be traced\nand fixed.\n\n---\n\nEverything else in this release:\n\n- Messages about what a phone may do now name the right computer.",
+  "build": "34",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-34/RecordLah-v1.9-34.zip",
+  "sha256": "7b2badec9003f51d5d1114eab94ce51817e5b1526f0e4096e2bac32838070e6f",
+  "notes": "# Transcripts in almost any language {globe}\nChoose from nearly 100 languages for transcription, not just 10. Your\nMac's own language is offered first, and languages the speech model is\nweaker in are marked.\n\n# Webinar handouts, even when shared late {doc.on.doc}\nA webinar has no Resources button until the host shares the first\nhandout. RecordLah now keeps checking every two minutes until one\nappears, so a handout shared late is still saved.\n\n---\n\nEverything else in this release:\n\n- The recording page no longer points at a switch it doesn't have when\n  handouts are off.",
   "highlights": [
     {
-      "title": "Slow live views can be tracked down",
-      "icon": "antenna.radiowaves.left.and.right",
-      "text": "RecordLah now notes whether your phone's live view went straight to your computer or through our relay, so a slow or dropped watch can be traced and fixed."
+      "title": "Transcripts in almost any language",
+      "icon": "globe",
+      "text": "Choose from nearly 100 languages for transcription, not just 10. Your Mac's own language is offered first, and languages the speech model is weaker in are marked."
+    },
+    {
+      "title": "Webinar handouts, even when shared late",
+      "icon": "doc.on.doc",
+      "text": "A webinar has no Resources button until the host shares the first handout. RecordLah now keeps checking every two minutes until one appears, so a handout shared late is still saved."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-33",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-34",
   "required": false,
   "minimum_macos": "13.0"
 }
