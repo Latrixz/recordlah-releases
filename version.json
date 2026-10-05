@@ -1,22 +1,27 @@
 {
   "version": "1.9",
-  "build": "34",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-34/RecordLah-v1.9-34.zip",
-  "sha256": "7b2badec9003f51d5d1114eab94ce51817e5b1526f0e4096e2bac32838070e6f",
-  "notes": "# Transcripts in almost any language {globe}\nChoose from nearly 100 languages for transcription, not just 10. Your\nMac's own language is offered first, and languages the speech model is\nweaker in are marked.\n\n# Webinar handouts, even when shared late {doc.on.doc}\nA webinar has no Resources button until the host shares the first\nhandout. RecordLah now keeps checking every two minutes until one\nappears, so a handout shared late is still saved.\n\n---\n\nEverything else in this release:\n\n- The recording page no longer points at a switch it doesn't have when\n  handouts are off.",
+  "build": "35",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-35/RecordLah-v1.9-35.zip",
+  "sha256": "bfbeed23b9a43f625bd28171293e423b5fc90d5af21e54496a0922cdb9e32151",
+  "notes": "# Search everything you have recorded {search}\nPress Command-K and type. RecordLah looks through meeting names, folders,\nthe notes it wrote and every word that was said. Open a result and it\ntakes you to the meeting \u2014 to the line in the transcript where that was\nsaid, or to the notes with your words marked.\n\n# Your meetings keep the time zone you made them in {globe}\nSet a meeting in Singapore, land in Vietnam, and it still starts when the\nrest of the meeting does. RecordLah also tells you when your Mac has\nmoved, and what that did to anything already scheduled.\n\n# Webinars that used to wait on Zoom's preview now get in {video}\nA Zoom Events webinar could sit on the \"Join\" preview until it gave up\ntwenty minutes later, with the meeting going on without you. RecordLah\nnow presses the right window.\n\n---\n\nEverything else in this release:\n\n- Notes come back complete instead of brief, and say when something on\n  screen could not be read rather than guessing at it.\n- A copy of a meeting says \"Choose a date\" instead of showing today's\n  date in a field it will not accept.\n- The time zone card counts every meeting it moved, shows the times you\n  set rather than a minute earlier, and no longer names the same zone\n  twice.",
   "highlights": [
     {
-      "title": "Transcripts in almost any language",
-      "icon": "globe",
-      "text": "Choose from nearly 100 languages for transcription, not just 10. Your Mac's own language is offered first, and languages the speech model is weaker in are marked."
+      "title": "Search everything you have recorded",
+      "icon": "search",
+      "text": "Press Command-K and type. RecordLah looks through meeting names, folders, the notes it wrote and every word that was said. Open a result and it takes you to the meeting \u2014 to the line in the transcript where that was said, or to the notes with your words marked."
     },
     {
-      "title": "Webinar handouts, even when shared late",
-      "icon": "doc.on.doc",
-      "text": "A webinar has no Resources button until the host shares the first handout. RecordLah now keeps checking every two minutes until one appears, so a handout shared late is still saved."
+      "title": "Your meetings keep the time zone you made them in",
+      "icon": "globe",
+      "text": "Set a meeting in Singapore, land in Vietnam, and it still starts when the rest of the meeting does. RecordLah also tells you when your Mac has moved, and what that did to anything already scheduled."
+    },
+    {
+      "title": "Webinars that used to wait on Zoom's preview now get in",
+      "icon": "video",
+      "text": "A Zoom Events webinar could sit on the \"Join\" preview until it gave up twenty minutes later, with the meeting going on without you. RecordLah now presses the right window."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-34",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-35",
   "required": false,
   "minimum_macos": "13.0"
 }
