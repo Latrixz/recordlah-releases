@@ -1,27 +1,27 @@
 {
   "version": "1.9",
-  "build": "35",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-35/RecordLah-v1.9-35.zip",
-  "sha256": "90adb23f310847e38c3a1d373f9b68add31da0499f09d66839705ca892cd3636",
-  "notes": "# Search everything you have recorded {search}\nPress Command-K and type. RecordLah looks through meeting names, folders,\nthe notes it wrote and every word that was said. Open a result and it\ntakes you to the meeting \u2014 to the line in the transcript where that was\nsaid, or to the notes with your words marked.\n\n# Your meetings keep the time zone you made them in {globe}\nSet a meeting in Singapore, land in Vietnam, and it still starts when the\nrest of the meeting does. RecordLah also tells you when your Mac has\nmoved, and what that did to anything already scheduled.\n\n# Webinars that used to wait on Zoom's preview now get in {video}\nA Zoom Events webinar could sit on the \"Join\" preview until it gave up\ntwenty minutes later, with the meeting going on without you. RecordLah\nnow presses the right window.\n\n---\n\nEverything else in this release:\n\n- Notes come back complete instead of brief, and say when something on\n  screen could not be read rather than guessing at it.\n- A copy of a meeting says \"Choose a date\" instead of showing today's\n  date in a field it will not accept.\n- The time zone card counts every meeting it moved, shows the times you\n  set rather than a minute earlier, and no longer names the same zone\n  twice.",
+  "build": "36",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-36/RecordLah-v1.9-36.zip",
+  "sha256": "15f4904fa233f5a574038b11ffa0f3e32beb1e893d9446187c01f14da615d05a",
+  "notes": "# Handouts, including the ones Zoom hides {folder}\nZoom tucks the Resources button behind \"More\" when its window is narrow,\nand RecordLah used to read that as \"this webinar has no handouts\". It now\nopens it, and collects the files further down the list that it was\nquietly skipping. When the host mentions the handouts in chat, it goes\nand looks straight away instead of waiting for the next check.\n\n# And it says when one does not turn up {danger}\nIf Zoom offers a handout and never sends it, you are told which one by\nname rather than just how many arrived, and RecordLah tries that one\nagain a couple of minutes later.\n\n# Search puts the closest answer first {search}\nType \"hook up\" and the lines that said it come before the ones that only\nmention \"hookup\" \u2014 and the newest meeting comes before the oldest, which\nit did not before.",
   "highlights": [
     {
-      "title": "Search everything you have recorded",
+      "title": "Handouts, including the ones Zoom hides",
+      "icon": "folder",
+      "text": "Zoom tucks the Resources button behind \"More\" when its window is narrow, and RecordLah used to read that as \"this webinar has no handouts\". It now opens it, and collects the files further down the list that it was quietly skipping. When the host mentions the handouts in chat, it goes and looks straight away instead of waiting for the next check."
+    },
+    {
+      "title": "And it says when one does not turn up",
+      "icon": "danger",
+      "text": "If Zoom offers a handout and never sends it, you are told which one by name rather than just how many arrived, and RecordLah tries that one again a couple of minutes later."
+    },
+    {
+      "title": "Search puts the closest answer first",
       "icon": "search",
-      "text": "Press Command-K and type. RecordLah looks through meeting names, folders, the notes it wrote and every word that was said. Open a result and it takes you to the meeting \u2014 to the line in the transcript where that was said, or to the notes with your words marked."
-    },
-    {
-      "title": "Your meetings keep the time zone you made them in",
-      "icon": "globe",
-      "text": "Set a meeting in Singapore, land in Vietnam, and it still starts when the rest of the meeting does. RecordLah also tells you when your Mac has moved, and what that did to anything already scheduled."
-    },
-    {
-      "title": "Webinars that used to wait on Zoom's preview now get in",
-      "icon": "video",
-      "text": "A Zoom Events webinar could sit on the \"Join\" preview until it gave up twenty minutes later, with the meeting going on without you. RecordLah now presses the right window."
+      "text": "Type \"hook up\" and the lines that said it come before the ones that only mention \"hookup\" \u2014 and the newest meeting comes before the oldest, which it did not before."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-35",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-36",
   "required": false,
   "minimum_macos": "13.0"
 }
