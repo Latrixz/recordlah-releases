@@ -1,27 +1,27 @@
 {
   "version": "1.9",
-  "build": "36",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-36/RecordLah-v1.9-36.zip",
-  "sha256": "15f4904fa233f5a574038b11ffa0f3e32beb1e893d9446187c01f14da615d05a",
-  "notes": "# Handouts, including the ones Zoom hides {folder}\nZoom tucks the Resources button behind \"More\" when its window is narrow,\nand RecordLah used to read that as \"this webinar has no handouts\". It now\nopens it, and collects the files further down the list that it was\nquietly skipping. When the host mentions the handouts in chat, it goes\nand looks straight away instead of waiting for the next check.\n\n# And it says when one does not turn up {danger}\nIf Zoom offers a handout and never sends it, you are told which one by\nname rather than just how many arrived, and RecordLah tries that one\nagain a couple of minutes later.\n\n# Search puts the closest answer first {search}\nType \"hook up\" and the lines that said it come before the ones that only\nmention \"hookup\" \u2014 and the newest meeting comes before the oldest, which\nit did not before.",
+  "build": "37",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-37/RecordLah-v1.9-37.zip",
+  "sha256": "623e31315f41696218cb75f2a283ec1cded9eeabafe20a579a246c616b966071",
+  "notes": "# Handouts it used to miss {doc}\nSome classes name their window after the session, and the app was not\nlooking for handouts in those at all. It looks now.\n\n# Files Zoom had already downloaded {folder}\nA handout you downloaded yourself can never be fetched again from Zoom's\npanel. The app finds your copy and files it with the recording \u2014 including\nfor recordings you have already made.\n\n# The recording notice sends from a popped-out chat {notes}\nIt was typed into the box and left there when the chat was in its own\nwindow.\n\n---\n\nEverything else in this release:\n\n- Handouts are listed in the order the host gave them out, not the order\n  they were collected.\n- A recording being joined into one file says \"Saving\" instead of showing\n  a red \"Recording\" with the clock still running.\n- The app says when the disk is tight, before a recording rather than in\n  Settings, and will not start joining a recording without room for it.\n- Asking a recording a question now reads the transcript as well as the\n  notes, so questions the words answer no longer offer to re-read the\n  video.\n- See analysis is one window: the recording and its transcript beside the\n  conversation, with the moments an answer rests on, questions worth\n  asking, a model picker, and a stop button.\n- Questions asked while one is being answered are queued instead of\n  dropped.\n- A long transcript opens at once rather than taking a minute.",
   "highlights": [
     {
-      "title": "Handouts, including the ones Zoom hides",
+      "title": "Handouts it used to miss",
+      "icon": "doc",
+      "text": "Some classes name their window after the session, and the app was not looking for handouts in those at all. It looks now."
+    },
+    {
+      "title": "Files Zoom had already downloaded",
       "icon": "folder",
-      "text": "Zoom tucks the Resources button behind \"More\" when its window is narrow, and RecordLah used to read that as \"this webinar has no handouts\". It now opens it, and collects the files further down the list that it was quietly skipping. When the host mentions the handouts in chat, it goes and looks straight away instead of waiting for the next check."
+      "text": "A handout you downloaded yourself can never be fetched again from Zoom's panel. The app finds your copy and files it with the recording \u2014 including for recordings you have already made."
     },
     {
-      "title": "And it says when one does not turn up",
-      "icon": "danger",
-      "text": "If Zoom offers a handout and never sends it, you are told which one by name rather than just how many arrived, and RecordLah tries that one again a couple of minutes later."
-    },
-    {
-      "title": "Search puts the closest answer first",
-      "icon": "search",
-      "text": "Type \"hook up\" and the lines that said it come before the ones that only mention \"hookup\" \u2014 and the newest meeting comes before the oldest, which it did not before."
+      "title": "The recording notice sends from a popped-out chat",
+      "icon": "notes",
+      "text": "It was typed into the box and left there when the chat was in its own window."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-36",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-37",
   "required": false,
   "minimum_macos": "13.0"
 }
