@@ -1,27 +1,27 @@
 {
   "version": "1.9",
-  "build": "37",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-37/RecordLah-v1.9-37.zip",
-  "sha256": "623e31315f41696218cb75f2a283ec1cded9eeabafe20a579a246c616b966071",
-  "notes": "# Handouts it used to miss {doc}\nSome classes name their window after the session, and the app was not\nlooking for handouts in those at all. It looks now.\n\n# Files Zoom had already downloaded {folder}\nA handout you downloaded yourself can never be fetched again from Zoom's\npanel. The app finds your copy and files it with the recording \u2014 including\nfor recordings you have already made.\n\n# The recording notice sends from a popped-out chat {notes}\nIt was typed into the box and left there when the chat was in its own\nwindow.\n\n---\n\nEverything else in this release:\n\n- Handouts are listed in the order the host gave them out, not the order\n  they were collected.\n- A recording being joined into one file says \"Saving\" instead of showing\n  a red \"Recording\" with the clock still running.\n- The app says when the disk is tight, before a recording rather than in\n  Settings, and will not start joining a recording without room for it.\n- Asking a recording a question now reads the transcript as well as the\n  notes, so questions the words answer no longer offer to re-read the\n  video.\n- See analysis is one window: the recording and its transcript beside the\n  conversation, with the moments an answer rests on, questions worth\n  asking, a model picker, and a stop button.\n- Questions asked while one is being answered are queued instead of\n  dropped.\n- A long transcript opens at once rather than taking a minute.",
+  "build": "38",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-38/RecordLah-v1.9-38.zip",
+  "sha256": "36d5d102a7c6a02df4392e615db43396fa598a3f5a856850bef5b3af3f0201bc",
+  "notes": "# Events that ask for your name and email {doc}\nSome classes want to know who is joining before they let anyone in.\nRecordLah! fills that in from your Attendee details and joins by itself.\n\n# A code sent to your email {envelope}\nAn event that verifies on every join is answered now: the code is read from\nApple Mail, typed in and submitted, with nobody in the room.\n\n# The meeting that is recording leads the list {film}\nIt used to sort by when the run started, which put the one thing happening\nright now underneath meetings ten days away.\n\n---\n\nEverything else in this release:\n\n- Buttons on an event page are clicked where they actually are, so joining\n  no longer takes a few stray clicks to land.\n- \"Agree and join\" is recognised as a way in, whatever its capitals.\n- The app no longer offers to record a meeting it is already joining.\n- A verification that worked is not thrown away a second later.\n- An unfinished model download that can never be resumed is deleted, and\n  the space it was holding comes back.\n- A lobby that gives up says what the page was offering, so an event that\n  words its button differently can be fixed quickly.",
   "highlights": [
     {
-      "title": "Handouts it used to miss",
+      "title": "Events that ask for your name and email",
       "icon": "doc",
-      "text": "Some classes name their window after the session, and the app was not looking for handouts in those at all. It looks now."
+      "text": "Some classes want to know who is joining before they let anyone in. RecordLah! fills that in from your Attendee details and joins by itself."
     },
     {
-      "title": "Files Zoom had already downloaded",
-      "icon": "folder",
-      "text": "A handout you downloaded yourself can never be fetched again from Zoom's panel. The app finds your copy and files it with the recording \u2014 including for recordings you have already made."
+      "title": "A code sent to your email",
+      "icon": "envelope",
+      "text": "An event that verifies on every join is answered now: the code is read from Apple Mail, typed in and submitted, with nobody in the room."
     },
     {
-      "title": "The recording notice sends from a popped-out chat",
-      "icon": "notes",
-      "text": "It was typed into the box and left there when the chat was in its own window."
+      "title": "The meeting that is recording leads the list",
+      "icon": "film",
+      "text": "It used to sort by when the run started, which put the one thing happening right now underneath meetings ten days away."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-37",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-38",
   "required": false,
   "minimum_macos": "13.0"
 }
