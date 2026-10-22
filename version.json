@@ -1,27 +1,22 @@
 {
   "version": "1.9",
-  "build": "38",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-38/RecordLah-v1.9-38.zip",
-  "sha256": "9be3770fa79780b91f3677604d95396057f6fb8ec3c00d4b1afd3c6992023912",
-  "notes": "# Events that ask for your name and email {doc}\nSome classes want to know who is joining before they let anyone in.\nRecordLah! fills that in from your Attendee details and joins by itself.\n\n# A code sent to your email {envelope}\nAn event that verifies on every join is answered now: the code is read from\nApple Mail, typed in and submitted, with nobody in the room.\n\n# The meeting that is recording leads the list {film}\nIt used to sort by when the run started, which put the one thing happening\nright now underneath meetings ten days away.\n\n---\n\nEverything else in this release:\n\n- Buttons on an event page are clicked where they actually are, so joining\n  no longer takes a few stray clicks to land.\n- \"Agree and join\" is recognised as a way in, whatever its capitals.\n- The app no longer offers to record a meeting it is already joining.\n- A verification that worked is not thrown away a second later.\n- The meeting you are reading stays open while the app saves in the\n  background \u2014 a transcript or a handout arriving used to send you back to\n  the first meeting in the list.\n- An unfinished model download that can never be resumed is deleted, and\n  the space it was holding comes back.\n- A lobby that gives up says what the page was offering, so an event that\n  words its button differently can be fixed quickly.",
+  "build": "39",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-39/RecordLah-v1.9-39.zip",
+  "sha256": "9784a9f7f871d0116784d4987de07995d6cbb9bd83d12e1ed78410e384449616",
+  "notes": "# Events that ask who is joining really are joined now {doc}\nYour name and email go into the form, the button gets pressed, and the event\nopens in Zoom \u2014 about fifteen seconds from the page appearing, with nobody\nin the room.\n\n# It no longer starts over {refresh}\nSubmitting the form takes the event to another of its own pages. The app\nused to read that as having lost the page, reopen the original link, and\nblank the form it had just filled in.\n\n---\n\nEverything else in this release:\n\n- An event whose only way in is \"Agree and join\" is recognised as a way in,\n  whatever its capitals.\n- A form is only submitted once every field reads back as typed. It used to\n  count one field of three as filled and press the button anyway.\n- Chrome's address suggestions no longer hide the page from the app, or sit\n  in front of the button it is trying to press.\n- A lobby that gives up now says what the page was offering, so an event\n  that words its button differently can be fixed quickly.",
   "highlights": [
     {
-      "title": "Events that ask for your name and email",
+      "title": "Events that ask who is joining really are joined now",
       "icon": "doc",
-      "text": "Some classes want to know who is joining before they let anyone in. RecordLah! fills that in from your Attendee details and joins by itself."
+      "text": "Your name and email go into the form, the button gets pressed, and the event opens in Zoom \u2014 about fifteen seconds from the page appearing, with nobody in the room."
     },
     {
-      "title": "A code sent to your email",
-      "icon": "envelope",
-      "text": "An event that verifies on every join is answered now: the code is read from Apple Mail, typed in and submitted, with nobody in the room."
-    },
-    {
-      "title": "The meeting that is recording leads the list",
-      "icon": "film",
-      "text": "It used to sort by when the run started, which put the one thing happening right now underneath meetings ten days away."
+      "title": "It no longer starts over",
+      "icon": "refresh",
+      "text": "Submitting the form takes the event to another of its own pages. The app used to read that as having lost the page, reopen the original link, and blank the form it had just filled in."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-38",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-39",
   "required": false,
   "minimum_macos": "13.0"
 }
