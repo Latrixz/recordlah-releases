@@ -1,22 +1,22 @@
 {
   "version": "1.9",
-  "build": "39",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-39/RecordLah-v1.9-39.zip",
-  "sha256": "9784a9f7f871d0116784d4987de07995d6cbb9bd83d12e1ed78410e384449616",
-  "notes": "# Events that ask who is joining really are joined now {doc}\nYour name and email go into the form, the button gets pressed, and the event\nopens in Zoom \u2014 about fifteen seconds from the page appearing, with nobody\nin the room.\n\n# It no longer starts over {refresh}\nSubmitting the form takes the event to another of its own pages. The app\nused to read that as having lost the page, reopen the original link, and\nblank the form it had just filled in.\n\n---\n\nEverything else in this release:\n\n- An event whose only way in is \"Agree and join\" is recognised as a way in,\n  whatever its capitals.\n- A form is only submitted once every field reads back as typed. It used to\n  count one field of three as filled and press the button anyway.\n- Chrome's address suggestions no longer hide the page from the app, or sit\n  in front of the button it is trying to press.\n- A lobby that gives up now says what the page was offering, so an event\n  that words its button differently can be fixed quickly.",
+  "build": "40",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-40/RecordLah-v1.9-40.zip",
+  "sha256": "595bafb06cbfc0cb66940cf96826cdf493847f766cdbd811ccaa3384b4156af2",
+  "notes": "# Move recordings to a drive {drive}\nRunning out of space? Move to\u2026 puts a meeting's video on an external drive\nor a cloud folder. Its transcript and notes stay here, and it plays from the\ndrive whenever it's plugged in.\n\n# Send a meeting to someone {import}\nExport\u2026 makes one file with the recording, transcript and notes. They\ndouble-click it and it's in their RecordLah!. The Zoom link and passcode\nare never included.\n\n---\n\nEverything else in this release:\n\n- Alerts now look like RecordLah!, and list each item with what went wrong.\n- With the microphone switched off for RecordLah!, a recording still records\n  the meeting. Only your voice is left out.\n- In Select, shift-click starts from the open meeting, and ticks no longer\n  disappear when the list updates.\n- File \u203a Export Meeting exports the meeting you have open.\n- Help has a new section on moving and sharing recordings.",
   "highlights": [
     {
-      "title": "Events that ask who is joining really are joined now",
-      "icon": "doc",
-      "text": "Your name and email go into the form, the button gets pressed, and the event opens in Zoom \u2014 about fifteen seconds from the page appearing, with nobody in the room."
+      "title": "Move recordings to a drive",
+      "icon": "drive",
+      "text": "Running out of space? Move to\u2026 puts a meeting's video on an external drive or a cloud folder. Its transcript and notes stay here, and it plays from the drive whenever it's plugged in."
     },
     {
-      "title": "It no longer starts over",
-      "icon": "refresh",
-      "text": "Submitting the form takes the event to another of its own pages. The app used to read that as having lost the page, reopen the original link, and blank the form it had just filled in."
+      "title": "Send a meeting to someone",
+      "icon": "import",
+      "text": "Export\u2026 makes one file with the recording, transcript and notes. They double-click it and it's in their RecordLah!. The Zoom link and passcode are never included."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-39",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-40",
   "required": false,
   "minimum_macos": "13.0"
 }
