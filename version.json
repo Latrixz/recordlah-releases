@@ -1,17 +1,17 @@
 {
   "version": "1.9",
-  "build": "46",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-46/RecordLah-v1.9-46.zip",
-  "sha256": "2ccf5924c360c979bc207f2eb8085b46be532bcce2ca9115f938075abe639022",
-  "notes": "# Your phone connects faster {bolt}\nThe remote shows your Mac as online almost straight away, and buttons answer\nin about a second.\n\n---\n\nEverything else in this release:\n\n- Guard this Mac's live look no longer holds up the rest of the remote.",
+  "build": "47",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-47/RecordLah-v1.9-47.zip",
+  "sha256": "253d5ffa0ca55d1de63d85ee289d75f83de31e0da3875f27424dde1090a27469",
+  "notes": "# Check for updates from your phone {arrow.clockwise}\nTap the refresh button at the bottom of the remote and your Mac looks for a\nnew RecordLah straight away.\n\n---\n\nEverything else in this release:\n\n- The remote shows which version your Mac is on.",
   "highlights": [
     {
-      "title": "Your phone connects faster",
-      "icon": "bolt",
-      "text": "The remote shows your Mac as online almost straight away, and buttons answer in about a second."
+      "title": "Check for updates from your phone",
+      "icon": "arrow.clockwise",
+      "text": "Tap the refresh button at the bottom of the remote and your Mac looks for a new RecordLah straight away."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-46",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-47",
   "required": false,
   "minimum_macos": "13.0"
 }
