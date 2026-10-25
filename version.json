@@ -1,22 +1,27 @@
 {
   "version": "1.9",
-  "build": "44",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-44/RecordLah-v1.9-44.zip",
-  "sha256": "7e50883c5a2a17c24b0500fa22101d1772c33cda04dda473b858887acf182782",
-  "notes": "# Guard this Mac, more watchful {shield}\nYour phone now also hears if your Mac is unplugged, if its lid is closed or\nopened, or if the camera is covered. An alert that can't get through while\nthe Mac is offline is sent as soon as it's back.\n\n# Listen while you watch {iphone}\nWhile watching the camera on your phone, tap Listen to hear the room. Your\nMac shows its microphone light while you do, and it's never on by itself.\n\n---\n\nEverything else in this release:\n\n- Delete guard pictures on your phone, or all at once under Settings \u203a Guard.\n- If the camera's cover is left shut, you're told it can't see anything.\n- Help has a section on Guard this Mac.\n- Your Mac says when a phone starts watching its camera.",
+  "build": "45",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-45/RecordLah-v1.9-45.zip",
+  "sha256": "a50120d90f179c75430998ec5a77c6c9e4ef60eaa3794685f5ef071597f3c3ec",
+  "notes": "# Update from your phone {iphone}\nWhen a new RecordLah is out, your phone says so, shows what's new, and can\nupdate your Mac for you. It waits if anything is recording.\n\n# Bad meeting links stop straight away {link}\nIf Zoom says a meeting ID isn't valid, RecordLah stops at once and tells\nyour phone why, instead of waiting 20 minutes.\n\n# Record your screen from your phone {display}\nStart a recording of your Mac's whole screen from the phone, with or\nwithout your voice.\n\n---\n\nEverything else in this release:\n\n- Watching a recording from your phone works after you've watched the camera.\n- A very short recording with nothing said ends straight away.\n- Record now opens its question faster.\n- The Mac's live card says when a phone is watching the camera.\n- A copy button sits beside the phone pairing code.\n- Installing an update is no longer held up by the Guard this Mac prompt.",
   "highlights": [
     {
-      "title": "Guard this Mac, more watchful",
-      "icon": "shield",
-      "text": "Your phone now also hears if your Mac is unplugged, if its lid is closed or opened, or if the camera is covered. An alert that can't get through while the Mac is offline is sent as soon as it's back."
+      "title": "Update from your phone",
+      "icon": "iphone",
+      "text": "When a new RecordLah is out, your phone says so, shows what's new, and can update your Mac for you. It waits if anything is recording."
     },
     {
-      "title": "Listen while you watch",
-      "icon": "iphone",
-      "text": "While watching the camera on your phone, tap Listen to hear the room. Your Mac shows its microphone light while you do, and it's never on by itself."
+      "title": "Bad meeting links stop straight away",
+      "icon": "link",
+      "text": "If Zoom says a meeting ID isn't valid, RecordLah stops at once and tells your phone why, instead of waiting 20 minutes."
+    },
+    {
+      "title": "Record your screen from your phone",
+      "icon": "display",
+      "text": "Start a recording of your Mac's whole screen from the phone, with or without your voice."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-44",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-45",
   "required": false,
   "minimum_macos": "13.0"
 }
