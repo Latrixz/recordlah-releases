@@ -1,17 +1,22 @@
 {
   "version": "1.9",
-  "build": "42",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-42/RecordLah-v1.9-42.zip",
-  "sha256": "05d26134d94c6b2b5862b7095e497c702b34292b1bb90ae82ff0b65571ff3b67",
-  "notes": "# Sign in with Zoom, first {link}\nWhen a Zoom Events page asks who you are, RecordLah! now presses \"Sign in\nwith Zoom\" first. It uses the Zoom account your browser is already signed\nin to, so no emailed code is needed. If the page still asks, it falls back\nto the emailed code as before.",
+  "build": "43",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-43/RecordLah-v1.9-43.zip",
+  "sha256": "551e9c71d507f074d95ccb58546c9edde25a75595a24092224a5de9f1d5a51f5",
+  "notes": "# Guard this Mac {shield}\nLeaving your Mac on while you're away? Turn on Guard this Mac and the\ncamera watches for someone at it. Your phone gets an alert with their\npicture. Turn it on from the RecordLah! menu, Settings \u203a Guard, or your phone.\n\n# Watch the camera from your phone {iphone}\nWhile it's guarding, tap Watch camera on your phone to see the room live,\nand Pictures to see everyone who came. Pictures only: nothing is heard.\n\n---\n\nEverything else in this release:\n\n- The first time you turn it on, allow the camera on your Mac. For alerts\n  that get through Focus modes, allow Time Sensitive notifications for ntfy\n  on your iPhone.\n- Guard alerts and breakout room changes each have their own switch under\n  Settings \u203a Alerts.\n- After an update, your phone can reach your Mac again within seconds.",
   "highlights": [
     {
-      "title": "Sign in with Zoom, first",
-      "icon": "link",
-      "text": "When a Zoom Events page asks who you are, RecordLah! now presses \"Sign in with Zoom\" first. It uses the Zoom account your browser is already signed in to, so no emailed code is needed. If the page still asks, it falls back to the emailed code as before."
+      "title": "Guard this Mac",
+      "icon": "shield",
+      "text": "Leaving your Mac on while you're away? Turn on Guard this Mac and the camera watches for someone at it. Your phone gets an alert with their picture. Turn it on from the RecordLah! menu, Settings \u203a Guard, or your phone."
+    },
+    {
+      "title": "Watch the camera from your phone",
+      "icon": "iphone",
+      "text": "While it's guarding, tap Watch camera on your phone to see the room live, and Pictures to see everyone who came. Pictures only: nothing is heard."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-42",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-43",
   "required": false,
   "minimum_macos": "13.0"
 }
