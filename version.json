@@ -1,17 +1,17 @@
 {
   "version": "1.9",
-  "build": "47",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-47/RecordLah-v1.9-47.zip",
-  "sha256": "253d5ffa0ca55d1de63d85ee289d75f83de31e0da3875f27424dde1090a27469",
-  "notes": "# Check for updates from your phone {arrow.clockwise}\nTap the refresh button at the bottom of the remote and your Mac looks for a\nnew RecordLah straight away.\n\n---\n\nEverything else in this release:\n\n- The remote shows which version your Mac is on.",
+  "build": "48",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-48/RecordLah-v1.9-48.zip",
+  "sha256": "f19873dbe384930cfa8389a6215ea3d38f6c322a659b4c7a4a937aeeb43ee62f",
+  "notes": "# Updates finish cleanly {checkmark.circle}\nAfter updating from your phone, the remote shows the new version straight\naway instead of saying it is still updating.",
   "highlights": [
     {
-      "title": "Check for updates from your phone",
-      "icon": "arrow.clockwise",
-      "text": "Tap the refresh button at the bottom of the remote and your Mac looks for a new RecordLah straight away."
+      "title": "Updates finish cleanly",
+      "icon": "checkmark.circle",
+      "text": "After updating from your phone, the remote shows the new version straight away instead of saying it is still updating."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-47",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-48",
   "required": false,
   "minimum_macos": "13.0"
 }
