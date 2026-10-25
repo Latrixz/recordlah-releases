@@ -1,22 +1,17 @@
 {
   "version": "1.9",
-  "build": "41",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-41/RecordLah-v1.9-41.zip",
-  "sha256": "32d59e89e420c4adc52ddb41664404d18115418c52fb10d001bb14446172cfcc",
-  "notes": "# Breakout rooms, handled {refresh}\nWhen the host sends you to a breakout room, RecordLah! joins it, keeps\nrecording Zoom, opens the chat again and tells your phone which room you're\nin. The same when you're called back to the main room.\n\n# A stuck recording keeps going {camcorder}\nIf Zoom is stuck on its join screen, RecordLah! now presses Join until it's\nin. If recording the screen keeps failing, it records Zoom's window instead,\nor waits for it, and tells your phone, rather than stopping.\n\n---\n\nEverything else in this release:\n\n- Watching from your phone keeps going through room changes and screen\n  sharing, and ends as soon as the recording does.\n- Messages sent from your phone to the meeting chat are confirmed properly,\n  and the app you were using comes back to the front.\n- Checking for handouts no longer closes a breakout invite or leaves Zoom's\n  More menu open.\n- A recording no longer stops if recording the screen breaks while you share.\n- If the chat opens late, your phone is told, and the recording notice is\n  posted then.",
+  "build": "42",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-42/RecordLah-v1.9-42.zip",
+  "sha256": "05d26134d94c6b2b5862b7095e497c702b34292b1bb90ae82ff0b65571ff3b67",
+  "notes": "# Sign in with Zoom, first {link}\nWhen a Zoom Events page asks who you are, RecordLah! now presses \"Sign in\nwith Zoom\" first. It uses the Zoom account your browser is already signed\nin to, so no emailed code is needed. If the page still asks, it falls back\nto the emailed code as before.",
   "highlights": [
     {
-      "title": "Breakout rooms, handled",
-      "icon": "refresh",
-      "text": "When the host sends you to a breakout room, RecordLah! joins it, keeps recording Zoom, opens the chat again and tells your phone which room you're in. The same when you're called back to the main room."
-    },
-    {
-      "title": "A stuck recording keeps going",
-      "icon": "camcorder",
-      "text": "If Zoom is stuck on its join screen, RecordLah! now presses Join until it's in. If recording the screen keeps failing, it records Zoom's window instead, or waits for it, and tells your phone, rather than stopping."
+      "title": "Sign in with Zoom, first",
+      "icon": "link",
+      "text": "When a Zoom Events page asks who you are, RecordLah! now presses \"Sign in with Zoom\" first. It uses the Zoom account your browser is already signed in to, so no emailed code is needed. If the page still asks, it falls back to the emailed code as before."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-41",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-42",
   "required": false,
   "minimum_macos": "13.0"
 }
