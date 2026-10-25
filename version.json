@@ -1,27 +1,17 @@
 {
   "version": "1.9",
-  "build": "45",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-45/RecordLah-v1.9-45.zip",
-  "sha256": "a50120d90f179c75430998ec5a77c6c9e4ef60eaa3794685f5ef071597f3c3ec",
-  "notes": "# Update from your phone {iphone}\nWhen a new RecordLah is out, your phone says so, shows what's new, and can\nupdate your Mac for you. It waits if anything is recording.\n\n# Bad meeting links stop straight away {link}\nIf Zoom says a meeting ID isn't valid, RecordLah stops at once and tells\nyour phone why, instead of waiting 20 minutes.\n\n# Record your screen from your phone {display}\nStart a recording of your Mac's whole screen from the phone, with or\nwithout your voice.\n\n---\n\nEverything else in this release:\n\n- Watching a recording from your phone works after you've watched the camera.\n- A very short recording with nothing said ends straight away.\n- Record now opens its question faster.\n- The Mac's live card says when a phone is watching the camera.\n- A copy button sits beside the phone pairing code.\n- Installing an update is no longer held up by the Guard this Mac prompt.",
+  "build": "46",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-46/RecordLah-v1.9-46.zip",
+  "sha256": "2ccf5924c360c979bc207f2eb8085b46be532bcce2ca9115f938075abe639022",
+  "notes": "# Your phone connects faster {bolt}\nThe remote shows your Mac as online almost straight away, and buttons answer\nin about a second.\n\n---\n\nEverything else in this release:\n\n- Guard this Mac's live look no longer holds up the rest of the remote.",
   "highlights": [
     {
-      "title": "Update from your phone",
-      "icon": "iphone",
-      "text": "When a new RecordLah is out, your phone says so, shows what's new, and can update your Mac for you. It waits if anything is recording."
-    },
-    {
-      "title": "Bad meeting links stop straight away",
-      "icon": "link",
-      "text": "If Zoom says a meeting ID isn't valid, RecordLah stops at once and tells your phone why, instead of waiting 20 minutes."
-    },
-    {
-      "title": "Record your screen from your phone",
-      "icon": "display",
-      "text": "Start a recording of your Mac's whole screen from the phone, with or without your voice."
+      "title": "Your phone connects faster",
+      "icon": "bolt",
+      "text": "The remote shows your Mac as online almost straight away, and buttons answer in about a second."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-45",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-46",
   "required": false,
   "minimum_macos": "13.0"
 }
