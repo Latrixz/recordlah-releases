@@ -1,22 +1,22 @@
 {
   "version": "1.9",
-  "build": "43",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-43/RecordLah-v1.9-43.zip",
-  "sha256": "551e9c71d507f074d95ccb58546c9edde25a75595a24092224a5de9f1d5a51f5",
-  "notes": "# Guard this Mac {shield}\nLeaving your Mac on while you're away? Turn on Guard this Mac and the\ncamera watches for someone at it. Your phone gets an alert with their\npicture. Turn it on from the RecordLah! menu, Settings \u203a Guard, or your phone.\n\n# Watch the camera from your phone {iphone}\nWhile it's guarding, tap Watch camera on your phone to see the room live,\nand Pictures to see everyone who came. Pictures only: nothing is heard.\n\n---\n\nEverything else in this release:\n\n- The first time you turn it on, allow the camera on your Mac. For alerts\n  that get through Focus modes, allow Time Sensitive notifications for ntfy\n  on your iPhone.\n- Guard alerts and breakout room changes each have their own switch under\n  Settings \u203a Alerts.\n- After an update, your phone can reach your Mac again within seconds.",
+  "build": "44",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-44/RecordLah-v1.9-44.zip",
+  "sha256": "7e50883c5a2a17c24b0500fa22101d1772c33cda04dda473b858887acf182782",
+  "notes": "# Guard this Mac, more watchful {shield}\nYour phone now also hears if your Mac is unplugged, if its lid is closed or\nopened, or if the camera is covered. An alert that can't get through while\nthe Mac is offline is sent as soon as it's back.\n\n# Listen while you watch {iphone}\nWhile watching the camera on your phone, tap Listen to hear the room. Your\nMac shows its microphone light while you do, and it's never on by itself.\n\n---\n\nEverything else in this release:\n\n- Delete guard pictures on your phone, or all at once under Settings \u203a Guard.\n- If the camera's cover is left shut, you're told it can't see anything.\n- Help has a section on Guard this Mac.\n- Your Mac says when a phone starts watching its camera.",
   "highlights": [
     {
-      "title": "Guard this Mac",
+      "title": "Guard this Mac, more watchful",
       "icon": "shield",
-      "text": "Leaving your Mac on while you're away? Turn on Guard this Mac and the camera watches for someone at it. Your phone gets an alert with their picture. Turn it on from the RecordLah! menu, Settings \u203a Guard, or your phone."
+      "text": "Your phone now also hears if your Mac is unplugged, if its lid is closed or opened, or if the camera is covered. An alert that can't get through while the Mac is offline is sent as soon as it's back."
     },
     {
-      "title": "Watch the camera from your phone",
+      "title": "Listen while you watch",
       "icon": "iphone",
-      "text": "While it's guarding, tap Watch camera on your phone to see the room live, and Pictures to see everyone who came. Pictures only: nothing is heard."
+      "text": "While watching the camera on your phone, tap Listen to hear the room. Your Mac shows its microphone light while you do, and it's never on by itself."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-43",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-44",
   "required": false,
   "minimum_macos": "13.0"
 }
