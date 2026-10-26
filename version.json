@@ -1,17 +1,22 @@
 {
   "version": "1.9",
-  "build": "48",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-48/RecordLah-v1.9-48.zip",
-  "sha256": "f19873dbe384930cfa8389a6215ea3d38f6c322a659b4c7a4a937aeeb43ee62f",
-  "notes": "# Updates finish cleanly {checkmark.circle}\nAfter updating from your phone, the remote shows the new version straight\naway instead of saying it is still updating.",
+  "build": "49",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-49/RecordLah-v1.9-49.zip",
+  "sha256": "c85c7c9747b3d2f96bedb51aa04d9e7d6eae76ea0efea22f609f994f4e506564",
+  "notes": "# Warn whoever is at your Mac {speaker.wave.2}\nWhen Guard this Mac sees someone, tap Warn them on the alert or the remote,\nand your Mac says out loud that it is being monitored.\n\n# Your own warning {text.bubble}\nWrite your own words in Settings \u203a Guard, and try them with Hear It.\n\n---\n\nEverything else in this release:\n\n- The guard no longer switches itself off when it sees someone.\n- The warning plays at full volume, then your volume goes back as it was.",
   "highlights": [
     {
-      "title": "Updates finish cleanly",
-      "icon": "checkmark.circle",
-      "text": "After updating from your phone, the remote shows the new version straight away instead of saying it is still updating."
+      "title": "Warn whoever is at your Mac",
+      "icon": "speaker.wave.2",
+      "text": "When Guard this Mac sees someone, tap Warn them on the alert or the remote, and your Mac says out loud that it is being monitored."
+    },
+    {
+      "title": "Your own warning",
+      "icon": "text.bubble",
+      "text": "Write your own words in Settings \u203a Guard, and try them with Hear It."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-48",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-49",
   "required": false,
   "minimum_macos": "13.0"
 }
