@@ -1,22 +1,17 @@
 {
   "version": "1.9",
-  "build": "52",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-52/RecordLah-v1.9-52.zip",
-  "sha256": "1158febc2488d56cd0860ac92aaa552b79fc2ea8af7a9323497924a77f840225",
-  "notes": "# Quieter guard overnight {moon}\nWith the lid closed, Guard this Mac no longer sends a \"paused\" alert each\ntime the Mac briefly wakes itself. Closing and opening the lid still tell you.\n\n# Update window stays in front {window}\nThe update window now opens above RecordLah's main window, so you can see it.\n\n---\n\nEverything else in this release:\n\n- An alert sent late now shows when it happened, not when it was sent.\n- Small fixes found by the full check run.",
+  "build": "53",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-53/RecordLah-v1.9-53.zip",
+  "sha256": "251b49817e7517e818ad0338dfdf3631eb1f5a990850561aa34fa970aa2d8803",
+  "notes": "# Video stops when you close notes {window}\nClosing a recording's notes window now stops its video. Before, the sound\nkept playing.\n\n---\n\nEverything else in this release:\n\n- Small fixes.",
   "highlights": [
     {
-      "title": "Quieter guard overnight",
-      "icon": "moon",
-      "text": "With the lid closed, Guard this Mac no longer sends a \"paused\" alert each time the Mac briefly wakes itself. Closing and opening the lid still tell you."
-    },
-    {
-      "title": "Update window stays in front",
+      "title": "Video stops when you close notes",
       "icon": "window",
-      "text": "The update window now opens above RecordLah's main window, so you can see it."
+      "text": "Closing a recording's notes window now stops its video. Before, the sound kept playing."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-52",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-53",
   "required": false,
   "minimum_macos": "13.0"
 }
