@@ -2,13 +2,18 @@
   "version": "1.9",
   "build": "53",
   "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-53/RecordLah-v1.9-53.zip",
-  "sha256": "251b49817e7517e818ad0338dfdf3631eb1f5a990850561aa34fa970aa2d8803",
-  "notes": "# Video stops when you close notes {window}\nClosing a recording's notes window now stops its video. Before, the sound\nkept playing.\n\n---\n\nEverything else in this release:\n\n- Small fixes.",
+  "sha256": "c4e59c1f56e3fcaeca8630a97cb3f9b4ba919a8eefaa3d5380a2f4b9d83a5241",
+  "notes": "# Video stops when you close notes {window}\nClosing a recording's notes window now stops its video. Before, the sound\nkept playing.\n\n# Back online sooner {refresh}\nOpen the lid and your phone remote reconnects in seconds. RecordLah now\nnotices the Mac has woken straight away.\n\n---\n\nEverything else in this release:\n\n- Small fixes.",
   "highlights": [
     {
       "title": "Video stops when you close notes",
       "icon": "window",
       "text": "Closing a recording's notes window now stops its video. Before, the sound kept playing."
+    },
+    {
+      "title": "Back online sooner",
+      "icon": "refresh",
+      "text": "Open the lid and your phone remote reconnects in seconds. RecordLah now notices the Mac has woken straight away."
     }
   ],
   "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-53",
