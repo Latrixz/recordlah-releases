@@ -1,22 +1,17 @@
 {
   "version": "1.9",
-  "build": "50",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-50/RecordLah-v1.9-50.zip",
-  "sha256": "907d86856112cbe5d65d3e92deb0536976b6947abe060ac2384040de465bc17e",
-  "notes": "# All your recordings on your phone {list.bullet}\nPast recordings now shows how many you have, and older ones load as you\nscroll.\n\n# Notes show up {doc.text}\nRecordings with notes are found and marked again, so With notes lists them.",
+  "build": "51",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-51/RecordLah-v1.9-51.zip",
+  "sha256": "c81a093798dbf6501738b67ce280050abff24c7bb10b1e9816fbbdcd0ab48fc9",
+  "notes": "# Guard pictures load fast {photo.on.rectangle}\nYour phone shows all of Guard this Mac's pictures, and they appear in a\nsecond or two instead of one by one.",
   "highlights": [
     {
-      "title": "All your recordings on your phone",
-      "icon": "list.bullet",
-      "text": "Past recordings now shows how many you have, and older ones load as you scroll."
-    },
-    {
-      "title": "Notes show up",
-      "icon": "doc.text",
-      "text": "Recordings with notes are found and marked again, so With notes lists them."
+      "title": "Guard pictures load fast",
+      "icon": "photo.on.rectangle",
+      "text": "Your phone shows all of Guard this Mac's pictures, and they appear in a second or two instead of one by one."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-50",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-51",
   "required": false,
   "minimum_macos": "13.0"
 }
