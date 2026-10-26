@@ -2,8 +2,8 @@
   "version": "1.9",
   "build": "53",
   "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-53/RecordLah-v1.9-53.zip",
-  "sha256": "c4e59c1f56e3fcaeca8630a97cb3f9b4ba919a8eefaa3d5380a2f4b9d83a5241",
-  "notes": "# Video stops when you close notes {window}\nClosing a recording's notes window now stops its video. Before, the sound\nkept playing.\n\n# Back online sooner {refresh}\nOpen the lid and your phone remote reconnects in seconds. RecordLah now\nnotices the Mac has woken straight away.\n\n---\n\nEverything else in this release:\n\n- Small fixes.",
+  "sha256": "e9ae6b7fc7b0805e9cb251791cf35f812d490cf7867b9e462a1921b681d6f68c",
+  "notes": "# Video stops when you close notes {window}\nClosing a recording's notes window now stops its video. Before, the sound\nkept playing.\n\n# Back online sooner {refresh}\nOpen the lid and your phone remote reconnects in seconds. RecordLah now\nnotices the Mac has woken straight away.\n\n---\n\nEverything else in this release:\n\n- Your phone remote shows when the Mac is on battery, and how full.",
   "highlights": [
     {
       "title": "Video stops when you close notes",
