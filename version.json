@@ -1,22 +1,22 @@
 {
   "version": "1.9",
-  "build": "49",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-49/RecordLah-v1.9-49.zip",
-  "sha256": "c85c7c9747b3d2f96bedb51aa04d9e7d6eae76ea0efea22f609f994f4e506564",
-  "notes": "# Warn whoever is at your Mac {speaker.wave.2}\nWhen Guard this Mac sees someone, tap Warn them on the alert or the remote,\nand your Mac says out loud that it is being monitored.\n\n# Your own warning {text.bubble}\nWrite your own words in Settings \u203a Guard, and try them with Hear It.\n\n---\n\nEverything else in this release:\n\n- The guard no longer switches itself off when it sees someone.\n- The warning plays at full volume, then your volume goes back as it was.",
+  "build": "50",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-50/RecordLah-v1.9-50.zip",
+  "sha256": "907d86856112cbe5d65d3e92deb0536976b6947abe060ac2384040de465bc17e",
+  "notes": "# All your recordings on your phone {list.bullet}\nPast recordings now shows how many you have, and older ones load as you\nscroll.\n\n# Notes show up {doc.text}\nRecordings with notes are found and marked again, so With notes lists them.",
   "highlights": [
     {
-      "title": "Warn whoever is at your Mac",
-      "icon": "speaker.wave.2",
-      "text": "When Guard this Mac sees someone, tap Warn them on the alert or the remote, and your Mac says out loud that it is being monitored."
+      "title": "All your recordings on your phone",
+      "icon": "list.bullet",
+      "text": "Past recordings now shows how many you have, and older ones load as you scroll."
     },
     {
-      "title": "Your own warning",
-      "icon": "text.bubble",
-      "text": "Write your own words in Settings \u203a Guard, and try them with Hear It."
+      "title": "Notes show up",
+      "icon": "doc.text",
+      "text": "Recordings with notes are found and marked again, so With notes lists them."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-49",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-50",
   "required": false,
   "minimum_macos": "13.0"
 }
