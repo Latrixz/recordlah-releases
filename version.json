@@ -1,17 +1,17 @@
 {
   "version": "1.9",
-  "build": "54",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-54/RecordLah-v1.9-54.zip",
-  "sha256": "e0bfdeca0431ba00de49f45ee1818586e32ee320e1ec854d64315130b1d5d50d",
-  "notes": "# Imported recordings show your time {clock}\nA recording someone sends you now shows the time on your own clock, wherever\nthey recorded it. Ones you already imported are fixed too.\n\n---\n\nEverything else in this release:\n\n- Nothing else this time.",
+  "build": "55",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-55/RecordLah-v1.9-55.zip",
+  "sha256": "f27309179ddf863920d7975abb4bbfe8aa246014ca804558cb1a87b2b33cf198",
+  "notes": "# Old guard pictures clear themselves {photo.on.rectangle}\nGuard this Mac now deletes pictures older than 7 days on its own. Before, old\nones only went once a new picture was taken.\n\n---\n\nEverything else in this release:\n\n- Nothing else this time.",
   "highlights": [
     {
-      "title": "Imported recordings show your time",
-      "icon": "clock",
-      "text": "A recording someone sends you now shows the time on your own clock, wherever they recorded it. Ones you already imported are fixed too."
+      "title": "Old guard pictures clear themselves",
+      "icon": "photo.on.rectangle",
+      "text": "Guard this Mac now deletes pictures older than 7 days on its own. Before, old ones only went once a new picture was taken."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-54",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-55",
   "required": false,
   "minimum_macos": "13.0"
 }
