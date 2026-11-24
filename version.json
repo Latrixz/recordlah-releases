@@ -1,17 +1,17 @@
 {
   "version": "1.9",
-  "build": "55",
-  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-55/RecordLah-v1.9-55.zip",
-  "sha256": "f27309179ddf863920d7975abb4bbfe8aa246014ca804558cb1a87b2b33cf198",
-  "notes": "# Old guard pictures clear themselves {photo.on.rectangle}\nGuard this Mac now deletes pictures older than 7 days on its own. Before, old\nones only went once a new picture was taken.\n\n---\n\nEverything else in this release:\n\n- Nothing else this time.",
+  "build": "56",
+  "url": "https://github.com/Latrixz/recordlah-releases/releases/download/v1.9-56/RecordLah-v1.9-56.zip",
+  "sha256": "7dd1c139341b3f800aab87fb5ba4f54a23644ef6b5bf3a7a656cb14ededb13fe",
+  "notes": "# Duplicates get scheduled {calendar}\nA duplicated meeting is now scheduled once you give it a date and save. Before,\nit stayed Off.\n\n---\n\nEverything else in this release:\n\n- Nothing else this time.",
   "highlights": [
     {
-      "title": "Old guard pictures clear themselves",
-      "icon": "photo.on.rectangle",
-      "text": "Guard this Mac now deletes pictures older than 7 days on its own. Before, old ones only went once a new picture was taken."
+      "title": "Duplicates get scheduled",
+      "icon": "calendar",
+      "text": "A duplicated meeting is now scheduled once you give it a date and save. Before, it stayed Off."
     }
   ],
-  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-55",
+  "notes_url": "https://github.com/Latrixz/recordlah-releases/releases/tag/v1.9-56",
   "required": false,
   "minimum_macos": "13.0"
 }
